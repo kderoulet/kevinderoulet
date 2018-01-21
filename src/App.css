@@ -1,0 +1,8 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+@media only screen and (min-width: 576px) {
+    .page {
+        padding-left: 350px;
+    }
+}
