@@ -1,5 +1,5 @@
 import React from 'react'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import chess from '../assets/chess.png'
 import dragonfighter from '../assets/dragonfighter.png'
 import ryde from '../assets/ryde.png'
@@ -9,33 +9,29 @@ import './Portfolio.css'
 
 const Portfolio = () => {
     return(
-        <div class="container portfolio">
-            <div>
-                <div>
+        <div className="container portfolio">
                     <br/>
-                </div>
-                <div class="project">
+                <div className="project">
                     <h3>Portfolio</h3>
-                    <img class="img-fluid" src={chess} alt="Chess Project"/>
-                    React Chess | <a href="https://chessforreact.herokuapp.com/" rel="noopener noreferrer" target="_blank">Demo</a> | <a href="https://github.com/kderoulet/react-chess" class="link" rel="noopener noreferrer" target="_blank">Github</a>                  
+                    <Link to='/chess'><img className="img-fluid" src={chess} alt="Chess Project"/></Link>
+                    React Chess | <a href="https://chessforreact.herokuapp.com/" rel="noopener noreferrer" target="_blank">Demo</a> | <a href="https://github.com/kderoulet/react-chess" className="link" rel="noopener noreferrer" target="_blank">Github</a>                  
                 </div>
-                <div class="project">
-                    <img class="img-fluid" src={WTPA} alt="WTPA Project"/>
+                <div className="project">
+                    <Link to='/wtpa'><img className="img-fluid" src={WTPA} alt="WTPA Project"/></Link>
                     Where the Party App | <a href="https://wtpa.herokuapp.com/"rel="noopener noreferrer" target="_blank">Demo</a> | <a href="https://github.com/kderoulet/WTPA" rel="noopener noreferrer" target="_blank">Github</a>                  
                 </div>
-                <div class="project">
-                    <a ><img class="img-fluid" src={ryde} alt="Ryde Project"/></a>                            
+                <div className="project">
+                    <Link to='/ryde'><img className="img-fluid" src={ryde} alt="Ryde Project"/></Link>                            
                     RYDE App | <a href="https://ancient-meadow-38445.herokuapp.com/"rel="noopener noreferrer" target="_blank">Demo</a> | <a href="https://github.com/kderoulet/ryde_app" rel="noopener noreferrer" target="_blank">Github</a>                  
                 </div>
-                <div class="project">
-                    <a ><img class="img-fluid" src={dragonfighter} alt="Dragonfighter Project"/></a>                         
+                <div className="project">
+                    <Link to='/dragonfighter' ><img className="img-fluid" src={dragonfighter} alt="Dragonfighter Project"/></Link>                         
                     Dragonfighter App | <a href="https://kderoulet.github.io/dragonfighter/">Demo</a> | <a href="https://github.com/kderoulet/dragonfighter" rel="noopener noreferrer" target="_blank">Github</a>                  
                 </div>
-                <div class="project">
-                    <a ><img class="img-fluid" src={solitaire} alt="Solitaire Project"/></a>                            
+                <div className="project">
+                    <Link to='/solitaire' ><img className="img-fluid" src={solitaire} alt="Solitaire Project"/></Link>                            
                     Solitaire App | <a href="https://kderoulet.github.io/solitaire/">Demo</a> | <a href="https://github.com/kderoulet/solitaire" rel="noopener noreferrer" target="_blank">Github</a>                  
                 </div>
-            </div>
         </div>
     )
 }

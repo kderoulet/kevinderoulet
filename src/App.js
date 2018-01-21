@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Switch, Route, Redirect, Link} from 'react-router-dom';
-import logo from './logo.svg';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Portfolio from './pages/Portfolio'
 import Sidebar from './components/Sidebar'
+import Chess from './pages/Chess'
+import WTPA from './pages/WTPA'
+import Ryde from './pages/Ryde'
+import Solitaire from './pages/Solitaire'
+import Dragonfighter from './pages/Dragonfighter'
 import './App.css'
 
 class App extends Component {
@@ -16,9 +20,22 @@ class App extends Component {
           <Router>
             <Switch>
               <Route exact path='/' render={() => 
-                <Portfolio>
-
-                </Portfolio>
+                <Portfolio/>
+              }/>
+              <Route exact path='/chess' render={() => 
+                <Chess/>
+              }/>
+              <Route exact path='/wtpa' render={() => 
+                <WTPA/>
+              }/>
+              <Route exact path='/ryde' render={() => 
+                <Ryde/>
+              }/>
+              <Route exact path='/solitaire' render={() => 
+                <Solitaire/>
+              }/>
+              <Route exact path='/dragonfighter' render={() => 
+                <Dragonfighter/>
               }/>
             </Switch>
           </Router>
