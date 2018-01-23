@@ -9,10 +9,10 @@ import './Portfolio.css'
 
 const Portfolio = () => {
     return(
-        <div className="container portfolio">
+        <div className="transition-item container portfolio">
                     <br/>
                 <div className="project">
-                    <h3>Portfolio</h3>
+                    <h1>Portfolio</h1>
                     <Link to='/chess'><img className="img-fluid" src={chess} alt="Chess Project"/></Link>
                     React Chess | <a href="https://chessforreact.herokuapp.com/" rel="noopener noreferrer" target="_blank">Demo</a> | <a href="https://github.com/kderoulet/react-chess" className="link" rel="noopener noreferrer" target="_blank">Github</a>                  
                 </div>

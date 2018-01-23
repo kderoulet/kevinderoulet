@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom'
 
 const Dragonfighter = () => {
     return(
-        <div className='container'>
-            <Link to='/'>Back to Portfolio</Link><br/><br/>
+        <div className='transition-item container'>
+            <Link to='/portfolio'>Back to Portfolio</Link><br/><br/>
             <h2>Dragonfighter</h2>
-            <Link to='/'><img className='img-fluid' src={dragonfighter} alt='dragonfighter project' style={{maxWidth: 500}}></img></Link>
+            <Link to='/portfolio'><img className='img-fluid' src={dragonfighter} alt='dragonfighter project' style={{maxWidth: 500}}></img></Link>
                 <p>Built with: JavaScript, jQuery, CSS, HTML</p>
                 <p>Dragonfighter: a just-for-fun text-based adventure built with Javascript.</p>
                 <p>I designed this as a Single-Page Application (SPA) in the spirit of many react apps. The game therefore functions totally without new page requests once the initial page is loaded.</p>

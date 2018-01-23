@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 
 const Ryde = () => {
     return(
-        <div className='container'>
-            <Link to='/'>Back to Portfolio</Link><br/><br/>
+        <div className='transition-item container'>
+            <Link to='/portfolio'>Back to Portfolio</Link><br/><br/>
             <h2>React Chess</h2>
-            <Link to='/'><img className='img-fluid' src={ryde} alt='ryde project' style={{maxWidth: 500}}></img></Link>
+            <Link to='/portfolio'><img className='img-fluid' src={ryde} alt='ryde project' style={{maxWidth: 500}}></img></Link>
                 <p>Built with: Ruby on Rails, Active Record, Bootstrap, HTML</p>
                 <p>Ryde: A ride-sharing app for the upcoming space travel economy built over a 7-day sprint with Ruby on Rails.</p>
                 <p>I designed this project mobile-first, and I kept the number of views to a minimum, providing as much functionality as possible without constant page changes.</p>

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import PageTransition from 'react-router-page-transition';
+import Welcome from './pages/Welcome'
 import Portfolio from './pages/Portfolio'
 import Sidebar from './components/Sidebar'
 import Chess from './pages/Chess'
@@ -20,23 +22,26 @@ class App extends Component {
           <Router>
             <Switch>
               <Route exact path='/' render={() => 
-                <Portfolio/>
+                <Welcome/>
               }/>
-              <Route exact path='/chess' render={() => 
-                <Chess/>
-              }/>
-              <Route exact path='/wtpa' render={() => 
-                <WTPA/>
-              }/>
-              <Route exact path='/ryde' render={() => 
-                <Ryde/>
-              }/>
-              <Route exact path='/solitaire' render={() => 
-                <Solitaire/>
-              }/>
-              <Route exact path='/dragonfighter' render={() => 
-                <Dragonfighter/>
-              }/>
+                <Route exact path='/portfolio' render={() => 
+                  <Portfolio className=''/>
+                }/>
+                <Route exact path='/chess' render={() => 
+                  <Chess/>
+                }/>
+                <Route exact path='/wtpa' render={() => 
+                  <WTPA/>
+                }/>
+                <Route exact path='/ryde' render={() => 
+                  <Ryde/>
+                }/>
+                <Route exact path='/solitaire' render={() => 
+                  <Solitaire/>
+                }/>
+                <Route exact path='/dragonfighter' render={() => 
+                  <Dragonfighter/>
+                }/>
             </Switch>
           </Router>
         </div>

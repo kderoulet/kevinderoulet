@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 
 const WTPA = () => {
     return(
-        <div className='container'>
-            <Link to='/'>Back to Portfolio</Link><br/><br/>
+        <div className='transition-item container'>
+            <Link to='/portfolio'>Back to Portfolio</Link><br/><br/>
             <h2>WTPA</h2>
-            <Link to='/'><img className='img-fluid' src={wtpa} alt='WTPA project' style={{maxWidth: 500}}></img></Link>
+            <Link to='/portfolio'><img className='img-fluid' src={wtpa} alt='WTPA project' style={{maxWidth: 500}}></img></Link>
                 <p>Built with: JavaScript, Node.js, Express.js, and MongoDB</p>
                 <p>Where the Party App: A night-out event planning app built over a 7-day sprint.</p>
                 <p>This was a group project in which I was the coding lead. I successfully implemented authorization features, API calls through the Yelp Fusion API, and all of the itinerary-building logic.</p>
