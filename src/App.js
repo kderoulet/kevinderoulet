@@ -29,7 +29,7 @@ class App extends Component {
                   key={location.key}
                   location={location}
               >
-                <Route exact path='/' component={Welcome} />              
+                <Route exact path='/kevinderoulet' component={Welcome} />              
                 <Route exact path='/portfolio' component={Portfolio}/>
                 <Route exact path='/chess' component={Chess}/>
                 <Route exact path='/wtpa' component={WTPA}/>

@@ -6,7 +6,7 @@ import './Welcome.css'
 
 const Welcome = () => {
     return(
-            <div className='container'>
+            <div className='container page'>
                 <CSSTransitionGroup
                     transitionName="welcome"
                     transitionAppear={true}
