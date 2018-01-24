@@ -29,13 +29,13 @@ class App extends Component {
                   key={location.key}
                   location={location}
               >
-                <Route exact path='/kevinderoulet' component={Welcome} />              
+                <Route exact path='/' component={Welcome} />              
                 <Route exact path='/portfolio' component={Portfolio}/>
                 <Route exact path='/chess' component={Chess}/>
                 <Route exact path='/wtpa' component={WTPA}/>
                 <Route exact path='/ryde' component={Ryde}/>
-                <Route exact path='/Solitaire' component={Solitaire}/>
-                <Route exact path='/Dragonfighter' component={Dragonfighter}/>
+                <Route exact path='/solitaire' component={Solitaire}/>
+                <Route exact path='/dragonfighter' component={Dragonfighter}/>
               </AnimatedSwitch>
             </TransitionGroup>
             )}
