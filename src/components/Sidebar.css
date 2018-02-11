@@ -19,7 +19,8 @@
 }
 
 .sidebar {
-    background-color: #eff1f3;    
+    background-color: #eff1f3;
+    z-index: 200;
 }
 
 @media only screen and (min-width: 576px) {

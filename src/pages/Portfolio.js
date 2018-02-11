@@ -9,7 +9,7 @@ import './Portfolio.css'
 
 const Portfolio = () => {
     return(
-        <div className="transition-item container portfolio">
+        <div className="container portfolio">
                     <br/>
                 <div className="project">
                     <h1>Portfolio</h1>
@@ -22,7 +22,7 @@ const Portfolio = () => {
                 </div>
                 <div className="project">
                     <Link to='/ryde'><img className="img-fluid" src={ryde} alt="Ryde Project"/></Link>                            
-                    RYDE App | <a href="https://ancient-meadow-38445.herokuapp.com/"rel="noopener noreferrer" target="_blank">Demo</a> | <a href="https://github.com/kderoulet/ryde_app" rel="noopener noreferrer" target="_blank">Github</a>                  
+                    Ryde App | <a href="https://ancient-meadow-38445.herokuapp.com/"rel="noopener noreferrer" target="_blank">Demo</a> | <a href="https://github.com/kderoulet/ryde_app" rel="noopener noreferrer" target="_blank">Github</a>                  
                 </div>
                 <div className="project">
                     <Link to='/dragonfighter' ><img className="img-fluid" src={dragonfighter} alt="Dragonfighter Project"/></Link>                         

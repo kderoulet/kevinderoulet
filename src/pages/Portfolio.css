@@ -5,11 +5,8 @@
     margin-bottom: 50px;
 }
 
-@media only screen and (min-width: 576px) {
-}
-
 @media only screen and (min-width: 768px) {
-    .page {
+    .project {
         margin: 0 50px 50px 50px;
         max-width: 650px;
     }

@@ -18,10 +18,10 @@ class App extends Component {
   render() {
     return (
       <div className="row wrapper">
-        <div className="col">
+        <div className="col small-width">
           <Sidebar/>
         </div>
-        <div className="col page">
+        <div className="col page large-width">
           <Route
             render={({ location }) => (
             <TransitionGroup component="main">

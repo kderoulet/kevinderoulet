@@ -13,7 +13,6 @@ const Sidebar = () => {
                     I work in React, Angular, Node, Express, MongoDB, JavaScript, Ruby on Rails, CSS, and HTML.
                 </p>
                 <p className="about">
-                    <i style={{color: "#777777"}}className="fa fa-file-text"></i> <a href="/src/assets/Resume-Kevin-de-Roulet.pdf" target="_blank" rel="noopener noreferrer">My Resume</a>
                     <br/>
                     <i style={{color: "#777777"}}className="fa fa-github-square"></i> <a href="https://github.com/kderoulet" target="_blank" rel="noopener noreferrer">Github</a>
                     <br/>
