@@ -1,0 +1,125 @@
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 0 10vh 0;
+    padding: 0;
+    background-color: #FEEEE1; /* Fallback color */
+    background: linear-gradient(45deg, transparent 49%, #F6E2D5 49%, #FEEEE1 51%, transparent 51%),
+    linear-gradient(45deg, #F6E2D5 49%, transparent 49%, transparent 51%, #FEEEE1 51%),
+    linear-gradient(to right, #F6E2D5, #FEEEE1),
+    linear-gradient(to bottom, #F6E2D5, #FEEEE1);
+    background-size: 30px 30px, 30px 30px, 60px 2px, 2px 60px;
+    background-position: 0 0, 15px 15px, 0 0, 0 0;
+    width: 100%;
+    height: 100%;
+
+    --r-color-peach: #FEEEE1;
+    --r-color-light-peach: #F6E2D5;
+    --r-color-gray: #303633;
+    --r-color-transparent-gray: rgba(21, 30, 28, 0.88); /* approximating #303633; */
+}
+
+.card {
+    border: 1px solid var(--r-color-peach, #FEEEE1);
+    border-radius: 35px;
+    color: white;
+    padding: 20px;
+    white-space: pre-line;
+}
+.card h1 {
+    color: var(--r-color-peach, #FEEEE1);
+}
+.card-wrapper {
+    background-color: var(--r-color-transparent-gray, rgba(21, 30, 28, 0.88));
+    margin-left: 10%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 80%;
+    border-radius: 35px;
+    padding: 20px;
+    max-width: 980px;
+    opacity: 0.88;
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+}
+.card-wrapper.main {
+    margin-top: 25vh;
+}
+.invisible {
+    opacity: 0;
+}
+.card-wrapper.invisible {
+    visibility: hidden;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.tab-wrapper {
+    white-space: normal;
+    margin-top: 20px;
+}
+.tab {
+    display: flex;
+}
+.tab-link {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: color 200ms ease-in, border 200ms ease-in;
+  font-size: 17px;
+  flex: 1;
+  text-align: center;
+  color: var(--r-color-peach, #FEEEE1);
+}
+.tab-link:hover {
+    color: #F6E2D5;
+    border-bottom: 1px solid var(--r-color-light-peach, #F6E2D5);
+}
+.tab-link.active {
+      border-bottom: 2px solid var(--r-color-peach, #FEEEE1);
+}
+.tab-content {
+    visibility: hidden;
+    height: 0;
+    margin: -14px;
+    padding: 0;
+    opacity: 0;
+}
+.tab-content.active {
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 200ms ease-in;
+      height: inherit;
+      margin: inherit;
+      padding: inherit;
+}
+
+.job-description-title {
+    margin-bottom: 0;
+}
+.job-description-time-active {
+    font-size: 14px;
+}
+
+#buttons {
+    display: flex;
+}
+.navigation-button {
+    flex: 1;
+    padding: 10px;
+    background-color: var(--r-color-light-peach, #F6E2D5);
+    border: 1px solid var(--r-color-peach, #FEEEE1);
+    border-radius: 10px;
+    margin: 10px;
+    color: #303633;
+    transition: color 200ms ease-in, opacity 200ms ease-in;
+}
+.navigation-button:hover {
+    background-color: var(--r-color-peach, #FEEEE1);
+    cursor: pointer;
+}
