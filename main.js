@@ -4,12 +4,12 @@ document.querySelector('#experience-button').addEventListener('click', checkExpe
 
 
 
-let skillsCopy = `Frontend: Typescript, React, JavaScript, CSS/SASS, HTML, Angular
-Backend/Scripting: Node.js, Python, Java, C#, PHP, Shell
-Tools and Platforms: Storybook, Gatsby, Docker, NPM/Yarn, Webpack, Jenkins, Git 
-Cloud and Infrastructure: AWS, Google Cloud, Microsoft Azure
-Workflows and Management: Agile/Sprint, Jira, ServiceNow, Figma, Photoshop, Illustrator, Blender
-Other: WebGL, Canvas, SEO, Google Analytics, CMS/WordPress, BigQuery, SQL`
+let skillsCopy = `JavaScript, Typescript, HTML/CSS/SASS, React.js, Angular, WebGL, Three.js, Canvas, Storybook, Gatsby
+Node.js, Python, Java, C#, PHP, Shell
+GraphQL, MongoDB, JSON, SQL
+Docker, NPM/Yarn, Webpack, Jenkins, Git 
+AWS, Google Cloud, Microsoft Azure 
+Agile/Sprint, Jira, Figma, Photoshop, Illustrator, Blender, SEO, Google Analytics, CMS/WordPress`
 
 let interestsCopy = `I've been a Software Engineer since doing a General Assembly Bootcamp in 2017. Technologically, I'm into WebGL, applied uses of AI, accessibility engineering, and the intersection of technology and marketing. A lot of my early work was in enabling others to do their work more efficiently, and I still am interested in how technology can enable us to live more simple lives. My recent work has touched marketing increasingly—I've been realizing how a good product can drive great technical work. And I've been enjoying playing with AI tools and looking for novel applications of them.
 
