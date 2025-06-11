@@ -68,7 +68,7 @@ body {
 }
 .tab-link {
   background-color: inherit;
-  border: none;
+  border: 2px solid transparent;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
@@ -80,10 +80,10 @@ body {
 }
 .tab-link:hover {
     color: #F6E2D5;
-    border-bottom: 1px solid var(--r-color-light-peach, #F6E2D5);
+    border-bottom: 2px solid var(--r-color-light-peach, #F6E2D5);
 }
 .tab-link.active {
-      border-bottom: 2px solid var(--r-color-peach, #FEEEE1);
+    border-bottom: 2px solid var(--r-color-peach, #FEEEE1);
 }
 .tab-content {
     visibility: hidden;
