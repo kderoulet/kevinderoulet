@@ -1,0 +1,35 @@
+html {
+    background: #123524;
+    min-height: 90vh;
+    color: rgb(250, 225, 223);
+}
+
+.flash-card {
+    text-align: center;
+    align-content: center;
+    padding: 30% 0;
+    text-wrap: pretty;
+}
+
+.vocab-word {
+    font-size: 28px;
+    padding: 30px 0;
+}
+.vocab-definition {
+    font-size: 22px;
+    visibility: hidden;
+}
+.vocab-definition.visible {
+    visibility: visible;
+}
+.vocab-buttons {
+    width: 100%;
+}
+.vocab-button {
+    padding: 20px;
+    margin: 20px;
+    visibility: hidden;
+}
+.vocab-button.visible {
+    visibility: visible;
+}
