@@ -1,7 +1,7 @@
 html {
     background: #123524;
     min-height: 90vh;
-    color: rgb(250, 225, 223);
+    color: #FAE1DF;
 }
 
 .flash-card {
@@ -28,8 +28,42 @@ html {
 .vocab-button {
     padding: 20px;
     margin: 20px;
+    background: #FAE1DF;
+    border: 1px solid #FAE1DF;
+    transition: background-color 100ms linear;
+    border-radius: 10px;
     visibility: hidden;
+}
+.vocab-button:hover {
+    background: #DFC7C6;
+    cursor: pointer;
+}
+.vocab-button-success-fail {
+    padding: 10px;
+    background: none;
+    border: none;
+}
+/* .vocab-button-success-fail svg {
+    height: 30px;
+    width: 30px;
+} */
+.vocab-button-success-fail:hover {
+    background: none;
+}
+.vocab-button-success-fail:hover svg {
+    fill: #ddd;
+}
+.vocab-show-answer {
+    display: none;
 }
 .vocab-button.visible {
     visibility: visible;
+    display: inline-block;
+}
+.vocab-button.visible svg {
+    overflow: visible;
+    width: 35px;
+}
+.vocab-selection-wrapper.invisible {
+    display: none;
 }

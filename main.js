@@ -16,7 +16,7 @@ let interestsCopy = `I've been a Software Engineer since doing a General Assembl
 Outside of engineering, I'm interested in luxury brands, philosophy, theology, medieval history, and modern trends. I like the social side of gaming. I like reading deep books and thinking big thoughts.`
 
 let greetingCopy = "hello. I'm Kevin."
-let catchCopy = "I'm a well-seasoned Full-Stack Engineer with experience in complex web apps. I’ve been a mentor, a team-builder, and a leader—I try to delegate the work that needs to be delegated while keeping a close eye on everything in my domain. My latest focuses are on everything Typescript / React as well as growing in my understanding of accessibility best-practices."
+let catchCopy = "I'm a Full-Stack Engineer with experience in complex web apps. I’ve been a mentor, a team-builder, and a leader—I try to delegate the work that needs to be delegated while keeping a close eye on everything in my domain. My latest focuses are on everything Typescript / React as well as growing in my understanding of accessibility best-practices."
 let catchID = '#landing-text'
 let greetingID = '#hello'
 let infoID = '#information'

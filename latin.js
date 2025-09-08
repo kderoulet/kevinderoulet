@@ -4,9 +4,10 @@ const vocabButtonSuccess = document.querySelector('#vocab-button-success')
 const vocabButtonFail = document.querySelector('#vocab-button-fail')
 const vocabWord = document.querySelector('#vocab-word')
 const vocabDefinition = document.querySelector('#vocab-definition')
+const vocabSelectionWrapper = document.querySelector('.vocab-selection-wrapper')
 
 // āēīōū
-let words = {
+let wordsCh1 = {
     "mē": {
         word: "mē",
         definition: "me, myself"
@@ -61,7 +62,7 @@ let words = {
     },
     "moneō": {
         word: "moneō, monere, monuī, monitum",
-        definition: "to remind, advice, warn (admonish, admonition, monitor, monument, monster, premonition)"
+        definition: "to remind, advise, warn (admonish, admonition, monitor, monument, monster, premonition)"
     },
     "salveō": {
         word: "salveō, salvēre",
@@ -99,8 +100,117 @@ let words = {
         word: "vocō, vocāre, vocāvī, vocātum",
         definition: "to call, summon (vocation, advocate, vocabulary, convoke, evoke, invoke, provoke, revoke"
     },
-    
 }
+// āēīōū
+let wordsCh2 = {
+    "fāma": {
+        word: "fāma, fāmae",
+        definition: "f., rumor, report; fame, reputation (famous, defame, infamy)"
+    },
+    "fōrma": {
+        word: "fōrma, fōrmae",
+        definition: "f., form, shape; beauty (formal, format, formula, formless)"
+    },
+    "fortūna": {
+        word: "fortūna, fortūnae",
+        definition: "f., fortunate, luck (forunate, misfortune, unfortunate)"
+    },
+    "īra": {
+        word: "īra, īrae",
+        definition: "f., ire, anger (irate, irascible; but not irritate)"
+    },
+    "nauta": {
+        word: "nauta, nautae",
+        definition: "m., sailor (nautical, nautilus, argonaut)"
+    },
+    "pecūnia": {
+        word: "pecūnia, pecūniae",
+        definition: "f., moeny (pecuniary, impecunious; cf. peculation)"
+    },
+    "philophia": {
+        word: "philosophia, phiosophiae",
+        definition: "f., (Greek philosophia, love of wisdom) philosophy"
+    },
+    "poena": {
+        word: "poena, poenae",
+        definition: "f., penalty, punishment (penal, penalize, penalty, pain, subpoena)"
+    },
+    "poenās dare": {
+        word: "poenās dare",
+        definition: "to pay the penalty"
+    },
+    "poēta": {
+        word: "poēta, poētae",
+        definition: "m., poet (poetry, poetic)"
+    },
+    "porta": {
+        word: "porta, portae",
+        definition: "f., gate, entrance (portal, portico, porch, porthole)"
+    },
+    "puella": {
+        word: "puella, puellae",
+        definition: "f., girl"
+    },
+    "rosa": {
+        word: "rosa, rosae",
+        definition: "f., rose (rosary, roseate, rosette)"
+    },
+    "sententia": {
+        word: "sententia, sententiae",
+        definition: "f., feeling, thought, opinion, vote, sentence (sententious, sentencing)"
+    },
+    "vīta": {
+        word: "vīta, vītae",
+        definition: "f., life; mode of life (vital, vitality, vitamin, vitalize)"
+    },
+    "antīquus": {
+        word: "antīquus, antīqua, antīquum",
+        definition: "adj., ancient, old-time (antique, antiquities, antiquated, antiquarian)"
+    },
+    "magnus": {
+        word: "magnus, magna, magnum",
+        definition: "adj., large, great; important (magnify, magnificient, magnate, magnitude, magnanimous)"
+    },
+    "meus": {
+        word: "meus, mea, meum",
+        definition: "adj., my"
+    },
+    "multus": {
+        word: "multus, multa, multum",
+        definition: "adj., much, many (multitude, multiply, multiple; multi-)"
+    },
+    "tuus": {
+        word: "tuus, tua, tuum",
+        definition: "adj., your (singular)"
+    },
+    "et": {
+        word: "et",
+        definition: "and, even"
+    },
+    "et... et": {
+        word: "et... et",
+        definition: "both... and"
+    },
+    "sed": {
+        word: "sed",
+        definition: "but"
+    },
+    "Ō": {
+        word: "Ō",
+        definition: "O! Oh!, commonly preceding a vocative"
+    },
+    "sine": {
+        word: "sine",
+        definition: "without (sinecure, sans)"
+    },
+    "est": {
+        word: "est",
+        definition: "is"
+    },
+
+}
+
+let vocabLists = [wordsCh1, wordsCh2]
 
 function toggleDisplay() {
     if (!showAnswer) {
@@ -128,17 +238,13 @@ function shuffle(wordList) {
     return wordList;
 }
 
-function setWord(word) {
-    vocabWord.textContent = words[word]["word"]
-    vocabDefinition.textContent = words[word]["definition"]
-}
-
 showAnswerButton.addEventListener('click', toggleDisplay)
 
-function initialize() {
+function initialize(words) {
+    showAnswerButton.classList.add('visible')
+    vocabSelectionWrapper.classList.add('invisible')
     let wordArray = Object.keys(words)
     wordArray = shuffle(wordArray)
-    
     let i = 0
     setWord(wordArray[i])
 
@@ -146,22 +252,49 @@ function initialize() {
     vocabButtonFail.addEventListener('click', () => nextWord("fail"))
 
     function nextWord(message) {
-        console.log('called')
         if (message !== "success") {
             wordArray.push(wordArray[i])
         }
         i++
         if (i === wordArray.length) {
-            vocabButtonSuccess.classList.remove('visible')
-            vocabButtonFail.classList.remove('visible')
-            vocabDefinition.classList.remove('visible')
-            vocabWord.textContent = "Success!"
+            // vocabButtonSuccess.classList.remove('visible')
+            // vocabButtonFail.classList.remove('visible')
+            // vocabDefinition.classList.remove('visible')
+            // vocabWord.textContent = "Success!"
+            // vocabSelectionWrapper.classList.remove('invisible')
+            // showAnswerButton.classList.remove('visible')
+            location.reload();
             
         } else {
             setWord(wordArray[i])            
             toggleDisplay()
         }
     }
+
+    function setWord(word) {
+        vocabWord.textContent = words[word]["word"]
+        vocabDefinition.textContent = words[word]["definition"]
+    }
 }
 
-initialize()
+showAnswerButton.classList.add('invisible')
+vocabWord.textContent = "Select a Vocab List"
+vocabLists.forEach((list, i) => {
+    let newButton = document.createElement('button')
+    newButton.setAttribute('vocabIndex', i)
+    newButton.classList.add('vocab-button')
+    newButton.classList.add('visible')    
+    newButton.textContent = `Chapter ${i+1} Vocab`
+    vocabSelectionWrapper.appendChild(newButton)
+    let vocabList = vocabLists[i]
+    newButton.addEventListener('click', () => initialize(vocabList))
+})
+let newestButton = document.createElement('button')
+newestButton.setAttribute('vocabIndex', 'all')
+newestButton.textContent = `All Vocab`
+newestButton.classList.add('vocab-button')
+newestButton.classList.add('visible')    
+vocabSelectionWrapper.appendChild(newestButton)
+let vocabList = Object.assign({}, ...vocabLists)
+newestButton.addEventListener('click', () => initialize(vocabList))
+// initialize(wordsCh1)
