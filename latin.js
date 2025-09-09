@@ -125,7 +125,7 @@ let wordsCh2 = {
     },
     "pecūnia": {
         word: "pecūnia, pecūniae",
-        definition: "f., moeny (pecuniary, impecunious; cf. peculation)"
+        definition: "f., money (pecuniary, impecunious; cf. peculation)"
     },
     "philophia": {
         word: "philosophia, phiosophiae",
@@ -207,10 +207,92 @@ let wordsCh2 = {
         word: "est",
         definition: "is"
     },
-
+}
+// āēīōū
+let wordsCh3 = {
+    "ager": {
+        word: "ager, agrī",
+        definition: "m., field, farm (agrarian, agriculture, agronomy)"
+    },
+    "agricola": {
+        word: "agricola, agricolae",
+        definition: "m., farmer"
+    },
+    "amīcus": {
+        word: "amīcus, amīcī (amīca, amīcae)",
+        definition: "m., (f.), friend (amicable, amiable, amity)"
+    },
+    "fēmina": {
+        word: "fēmina, fēminae",
+        definition: "f., woman (female, feminine, femininity)"
+    },
+    "fīliābus": {
+        word: "fīliābus, fīlia, fīliae",
+        definition: "f., daughter (filiation, affiliation, affiliate, filial)"
+    },
+    "fīlius": {
+        word: "fīlius, fīliī",
+        definition: "m., son (filiation, affiliation, affiliate, filial)"
+    },
+    "numerous": {
+        word: "numerous, numerī",
+        definition: "m., number (numeral, innumerable, enumerate)"
+    },
+    "populus": {
+        word: "populus, populī",
+        definition: "m., the people, a people, a nation (populace, population, popularity)"
+    },
+    "puer": {
+        word: "puer, puerī",
+        definition: "m., boy; plural boys, children (puerile, puerility, perperous)"
+    },
+    "sapientia": {
+        word: "sapientia, sapientiae",
+        definition: "f., wisdom (sapience, sapient, sage, savant)"
+    },
+    "vir": {
+        word: "vir, virī",
+        definition: "m., man, hero (virtue, virile, triumvirate)"
+    },
+    "avārus": {
+        word: "avārus, avāra, avārum",
+        definition: "greedy, avaricious (avarice, avariciousness, avid)"
+    },
+    "paucī": {
+        word: "paucī, paucae, pauca",
+        definition: "few, a few (paucity, pauciloquent, poco)"
+    },
+    "Rōmanus": {
+        word: "Rōmanus, Rōmana, Rōmanum",
+        definition: "Roman (romance, romantic, romanticism, Romania)"
+    },
+    "dē": {
+        word: "dē",
+        definition: "down from, from, concerning, about"
+    },
+    "in": {
+        word: "in",
+        definition: "in, on"
+    },
+    "hodiē": {
+        word: "hodiē",
+        definition: "adv., today (hodiernal)"
+    },
+    "semper": {
+        word: "semper",
+        definition: "adv., (always (sempiternal)"
+    },
+    "habeō": {
+        word: "habeō, habēre, habuī, habitum",
+        definition: "to have, hold, possess; consider, regard (in-habit, exhibit, habit, habitat)"
+    },
+    "satiō": {
+        word: "satiō, satiāre, satiāvī, satiātum",
+        definition: "to satisfy, sate (satiate, insatiable, satiety, satisfaction)"
+    }
 }
 
-let vocabLists = [wordsCh1, wordsCh2]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3]
 
 function toggleDisplay() {
     if (!showAnswer) {
