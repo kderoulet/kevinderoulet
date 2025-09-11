@@ -18,7 +18,7 @@ let wordsCh1 = {
     },
     "nihil": {
         word: "nihil",
-        definition: "nothing (nil, nihilism, annihilate)"
+        definition: "n. indeclineable, nothing (nil, nihilism, annihilate)"
     },
     "nōn": {
         word: "nōn",
@@ -280,7 +280,7 @@ let wordsCh3 = {
     },
     "semper": {
         word: "semper",
-        definition: "adv., (always (sempiternal)"
+        definition: "adv., always (sempiternal)"
     },
     "habeō": {
         word: "habeō, habēre, habuī, habitum",
@@ -291,8 +291,206 @@ let wordsCh3 = {
         definition: "to satisfy, sate (satiate, insatiable, satiety, satisfaction)"
     }
 }
+// āēīōū
+let wordsCh4 = {
+    "bāsium": {
+        word: "bāsium, bāsaiī",
+        definition: "n., kiss (basiate)"
+    },
+    "bellum": {
+        word: "bellum, bellī",
+        definition: "n., plan, purpose, counsel, advice, judgment, wisdom (counsel, counselor, consiliate, reconcile)"
+    },
+    "cūra": {
+        word: "cūra, cūrae",
+        definition: "f., care, attention, caution, anxiety (cure, curator, curious, curiosity, curio, curettage, sinecure)"
+    },
+    "dōnum": {
+        word: "dōnum, dōnī",
+        definition: "n., gift, present (donate, donation, condone)"
+    },
+    "exitium": {
+        word: "exitium, exitiī",
+        definition: "n., destruction, ruin (exit)"
+    },
+    "magister": {
+        word: "magister, magistrī (magistra, magistrae)",
+        definition: "m., (f.), schoolmaster or schoolmistress, teacher, master or mistress (magistrate, magistracy, magisterial, maestro, mastery, mister, miss)"
+    },
+    "mora": {
+        word: "mora, morae",
+        definition: "f., delay (moratorium, demur)"
+    },
+    "oculus": {
+        word: "oculus, oculī",
+        definition: "m., eye (ocular, oculist, binoculars, monocle)"
+    },
+    "officium": {
+        word: "officium, officiī",
+        definition: "n., duty, service (office, officer, official, officious)"
+    },
+    "ōtium": {
+        word: "ōtium, ōtiī",
+        definition: "n., leisure, peace (otiose, negotiate)"
+    },
+    "perīculum": {
+        word: "perīculum, perīculī",
+        definition: "n., danger, risk (peril, perilous, imperil, parlous)"
+    },
+    "remedium": {
+        word: "remedium, remediī",
+        definition: "n., cure, remedy (remedial, irremediable, remediation)"
+    },
+    "bellus": {
+        word: "bellus, bella, bellum",
+        definition: "pretty, handsom, charming (belle, beau, beauty, embellish, belladonna, belleslettres)"
+    },
+    "bonus": {
+        word: "bonus, bona, bonum",
+        definition: "good, kind (bonus, bonanza, bonny, bounty, bona fide)"
+    },
+    "hūmanus": {
+        word: "hūmanus, hūmāna, hūmānum",
+        definition: "pertaining to man, human, humane, kind; refined, cultivated (humanity, humanitarian, humanism)"
+    },
+    "malus": {
+        word: "malus, mala, malum",
+        definition: "bad, wicked, evil (malice, malicious, malign, malignant, malaria)"
+    },
+    "parvus": {
+        word: "parvus, parva, parvum",
+        definition: "small, little (parvovirus, parvule, parvicelluar)"
+    },
+    "stultus, stulta": {
+        word: "stultus, stulta, stultum",
+        definition: "foolish (stultify, stultification)"
+    },
+    "stultus, stultī": {
+        word: "stultus, stultī",
+        definition: "m., a fool (stultify, stultification)"
+    },
+    "vērus": {
+        word: "vērus, vēra, vērum",
+        definition: "true, real, proper (verify, verisimilitude, very, veracity)"
+    },
+    "iuvō": {
+        word: "iuvō (or adiuvō), iuvāre, iūvī, iūtum",
+        definition: "to help, aid, assist; please (adjutant, coadjustant, aid, aid-de-camp)"
+    },
+    "sum": {
+        word: "sum, esse, fuī, futūrum",
+        definition: "to be, exist (essence, essential, future, futurity)"
+    }
+}
+// āēīōū
+let wordsCh5 = {
+    "adulēscentia": {
+        word: "adulēscentia, adulēscentiae",
+        definition: "f., youth, young manhood; youthfulness (adolescence, adolescent)"
+    },
+    "animus": {
+        word: "animus, animī",
+        definition: "m., soul, spirit, mind (animus, animosity, magnanimous, unanimous, pusillanimous)"
+    },
+    "animī": {
+        word: "animī, animōrum",
+        definition: "high spirits, pride, courage"
+    },
+    "caelum": {
+        word: "caelum, caelī",
+        definition: "n., sky, heaven (ceiling, celestial, Celete, cerulean)"
+    },
+    "culpa": {
+        word: "culpa, culpae",
+        definition: "f., fault, blame (culpable, culprit, exculpate, inculpate)"
+    },
+    "glōria": {
+        word: "glōria, glōriae",
+        definition: "f., glory, fame (glorify, glorification, glorious)"
+    },
+    "verbum": {
+        word: "verbum, verbī",
+        definition: "n., word (verb, adverb, verbal, verbiage, verbose, proverb)"
+    },
+    "tē": {
+        word: "tē",
+        definition: "abl and acc sg., you, yourself"
+    },
+    "līber": {
+        word: "līber, lībera, līberum",
+        definition: "free (liberal, liberality, libertine)"
+    },
+    "noster": {
+        word: "noster, nostra, nostrum",
+        definition: "our, ours (nostrum, paternoster)"
+    },
+    "pulcher": {
+        word: "pulcher, pulchra, pulchrum",
+        definition: "beautiful, handsome; fine (pulchritude, pulchritudinous)"
+    },
+    "sānus": {
+        word: "sānus, sāna, sānum",
+        definition: "sound, healthy, sane (sanity, sanitary, sanitation, sanitarium, insane)"
+    },
+    "igitur": {
+        word: "igitur",
+        definition: "conj. postpositive, therefore, consequently"
+    },
+    "-ne": {
+        word: "-ne",
+        definition: "interrogative suffix attached to the first word of a sentence, typically the verb or another word on which the question hinges, to introduce a question whose answer is uncertain"
+    },
+    "propter": {
+        word: "propter",
+        definition: "prep. + acc., on account of, because of (post hoc ergo proper hoc - after this therefore on account of this)"
+    },
+    "crās": {
+        word: "crās",
+        definition: "adv, tomorrow (procrastinate, procrastination)"
+    },
+    "heri": {
+        word: "heri",
+        definition: "adv., yesterday"
+    },
+    "quandō": {
+        word: "quandō",
+        definition: "interrogative and rel adv and con., when"
+    },
+    "si quandō": {
+        word: "si quandō",
+        definition: "if ever"
+    },
+    "satis": {
+        word: "satis",
+        definition: "indeclinable noun, adj., and adv., enough, sufficient / sufficiently (satisfy, satiate, sate)"
+    },
+    "tum": {
+        word: "tum",
+        definition: "adv., then, at that time; thereupon, in the next place"
+    },
+    "cēno": {
+        word: "cēno, cēnāre, cēnāvī, cēnātum",
+        definition: "to dine (cenacle)"
+    },
+    "culpō": {
+        word: "culpō, culpāre, culpāvī, culpātum",
+        definition: "to blame, censure"
+    },
+    "maneō": {
+        word: "maneō, manēre, mānsī, mānsum",
+        definition: "to remain, stay, stay behind, abide, continue (mansion, manor)"
+    },
+    "remaneō": {
+        word: "remaneō, remanēre, remānsī, remānsum",
+        definition: "to remain, stay, stay behind, abide, continue (remnant, immanent)"
+    },
+    "superō": {
+        word: "superō, superāre, superāvī, superātum",
+        definition: "to be above, have the upper hand, surpass; overcome, conquer (superable, insuperable)"
+    }
+}
 
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5]
 
 function toggleDisplay() {
     if (!showAnswer) {
