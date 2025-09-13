@@ -299,6 +299,10 @@ let wordsCh4 = {
     },
     "bellum": {
         word: "bellum, bellī",
+        definition: "n., war (bellicose, belligerent, rebel, rebellion, revel)"
+    },
+    "cōnsilium": {
+        word: "cōnsilium, cōnsiliī",
         definition: "n., plan, purpose, counsel, advice, judgment, wisdom (counsel, counselor, consiliate, reconcile)"
     },
     "cūra": {
@@ -343,7 +347,7 @@ let wordsCh4 = {
     },
     "bellus": {
         word: "bellus, bella, bellum",
-        definition: "pretty, handsom, charming (belle, beau, beauty, embellish, belladonna, belleslettres)"
+        definition: "pretty, handsome, charming (belle, beau, beauty, embellish, belladonna, belleslettres)"
     },
     "bonus": {
         word: "bonus, bona, bonum",
