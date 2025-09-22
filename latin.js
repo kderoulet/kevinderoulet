@@ -493,8 +493,93 @@ let wordsCh5 = {
         definition: "to be above, have the upper hand, surpass; overcome, conquer (superable, insuperable)"
     }
 }
+// āēīōū
+let wordsCh6 = {
+    "deus": {
+        word: "deus, -i",
+        definition: "n., God, god, goddess"
+    },
+    "discipulus": {
+        word: "discipulus, disciplī, (discipula, discipulae)",
+        defintion: "m. (f.), learner, pupil student (disciple, discipline, disciplinary)"
+    },
+    "īnsidiae": {
+        word: "īnsidiae, īnsidiārum",
+        defintion: "f. pl., ambush, plot, treachery (insidious)"
+    },
+    "liber": {
+        word: "liber, librī",
+        defintion: "m., book (library, librarian, libretto)s"
+    },
+    "tyrannus": {
+        word: "tyrannus, tyrannī",
+        defintion: "m. absolute ruler, tyrant (tyrannical, tyrannous, tyrannicide)"
+    },
+    "vitium": {
+        word: "vitium, vitiī",
+        defintion: "n., fault, crime, vice (vitiate, vicious, vituperate)"
+    },
+    "Graecus": {
+        word: "Graecus, Graeca, Graecum",
+        defintion: "Greek"
+    },
+    "Graecus, Graecī": {
+        word: "Graecus, Graecī",
+        defintion: "m., a Greek"
+    },
+    "perpetuus": {
+        word: "perpetuus, perpetua, perpetuum",
+        defintion: "perpetual, lasting, uninterrupted, continuous (perpetuate, perpetuity)"
+    },
+    "plēnus": {
+        word: "plēna, plēnus, plēnum",
+        defintion: "full, abundant, generous (plenary, plenteous, plentiful, plenty)"
+    },
+    "salvus": {
+        word: "salvus, salva, salvum",
+        defintion: "safe, sound"
+    },
+    "secundus": {
+        word: "secundus, secunda, secundum",
+        defintion: "second, favorable (secondary)"
+    },
+    "vester": {
+        word: "vester, vestra, vestrum",
+        defintion: "your (pl.)"
+    },
+    "-que": {
+        word: "-que, ENCLITIC",
+        defintion: "conj., and; appended to the second of two words to be joined (ex: fāma glōriaque)"
+    },
+    "ubi": {
+        word: "ubi",
+        defintion: "(1) rel. adv. and conj., where, when (2) interog. adv. and conj., where? (ubiquitous, ubiquity)"
+    },
+    "ibi": {
+        word: "ibi",
+        defintion: "adv., there (ib. or ibid)"
+    },
+    "nunc": {
+        word: "nunc",
+        defintion: "adv., now, at present (quidnunc)"
+    },
+    "quārē": {
+        word: "quārē",
+        defintion: "adv., lit because of which thing, (but more commonly) therefore, wherefore, why"
+    },
+    "possum": {
+        word: "possum, posse, potuī",
+        defintion: "to be able, can could, have power (posse, possible, potent, potentate, potential, omnipotent)"
+    },
+    "tolerō": {
+        word: "tolerō, tolerāre, tolerāvī, tolerātum",
+        defintion: "to bear, endure (tolerate, toleration, tolerable, intolerable, intolerance)"
+    },
+}
 
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5]
+let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
+let vocabUnit2 = [wordsCh5, wordsCh6]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6]
 
 function toggleDisplay() {
     if (!showAnswer) {
@@ -561,24 +646,26 @@ function initialize(words) {
     }
 }
 
+function makeVocabButton(vocabList, label) {
+    let newButton = document.createElement('button')
+    newButton.classList.add('vocab-button')
+    newButton.classList.add('visible')    
+    newButton.textContent = label
+    vocabSelectionWrapper.appendChild(newButton)
+    newButton.addEventListener('click', () => initialize(vocabList))
+}
+
 showAnswerButton.classList.add('invisible')
 vocabWord.textContent = "Select a Vocab List"
 vocabLists.forEach((list, i) => {
-    let newButton = document.createElement('button')
-    newButton.setAttribute('vocabIndex', i)
-    newButton.classList.add('vocab-button')
-    newButton.classList.add('visible')    
-    newButton.textContent = `Chapter ${i+1} Vocab`
-    vocabSelectionWrapper.appendChild(newButton)
-    let vocabList = vocabLists[i]
-    newButton.addEventListener('click', () => initialize(vocabList))
+    makeVocabButton(list, `Chapter ${i+1} Vocab`);
 })
-let newestButton = document.createElement('button')
-newestButton.setAttribute('vocabIndex', 'all')
-newestButton.textContent = `All Vocab`
-newestButton.classList.add('vocab-button')
-newestButton.classList.add('visible')    
-vocabSelectionWrapper.appendChild(newestButton)
+let vocabUnit1List = Object.assign({}, ...vocabUnit1)
+let vocabUnit2List = Object.assign({}, ...vocabUnit2)
+
 let vocabList = Object.assign({}, ...vocabLists)
-newestButton.addEventListener('click', () => initialize(vocabList))
-// initialize(wordsCh1)
+
+makeVocabButton(vocabUnit1List, 'Unit 1 Vocab')
+makeVocabButton(vocabUnit2List, 'Unit 1 Vocab')
+
+makeVocabButton(vocabList, 'All Vocab')
