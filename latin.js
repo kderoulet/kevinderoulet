@@ -123,6 +123,10 @@ let wordsCh2 = {
         word: "nauta, nautae",
         definition: "m., sailor (nautical, nautilus, argonaut)"
     },
+    "patria": {
+        word: "patria, patriae",
+        definition: "f., fatherland, native land, one's country (patriotic, expatriate, repatriate)"
+    },
     "pecūnia": {
         word: "pecūnia, pecūniae",
         definition: "f., money (pecuniary, impecunious; cf. peculation)"
@@ -497,83 +501,83 @@ let wordsCh5 = {
 let wordsCh6 = {
     "deus": {
         word: "deus, -i",
-        definition: "n., God, god, goddess"
+        definition: "m., God, god, goddess"
     },
     "discipulus": {
         word: "discipulus, disciplī, (discipula, discipulae)",
-        defintion: "m. (f.), learner, pupil student (disciple, discipline, disciplinary)"
+        definition: "m. (f.), learner, pupil student (disciple, discipline, disciplinary)"
     },
     "īnsidiae": {
         word: "īnsidiae, īnsidiārum",
-        defintion: "f. pl., ambush, plot, treachery (insidious)"
+        definition: "f. pl., ambush, plot, treachery (insidious)"
     },
     "liber": {
         word: "liber, librī",
-        defintion: "m., book (library, librarian, libretto)s"
+        definition: "m., book (library, librarian, libretto)s"
     },
     "tyrannus": {
         word: "tyrannus, tyrannī",
-        defintion: "m. absolute ruler, tyrant (tyrannical, tyrannous, tyrannicide)"
+        definition: "m. absolute ruler, tyrant (tyrannical, tyrannous, tyrannicide)"
     },
     "vitium": {
         word: "vitium, vitiī",
-        defintion: "n., fault, crime, vice (vitiate, vicious, vituperate)"
+        definition: "n., fault, crime, vice (vitiate, vicious, vituperate)"
     },
     "Graecus": {
         word: "Graecus, Graeca, Graecum",
-        defintion: "Greek"
+        definition: "Greek"
     },
     "Graecus, Graecī": {
         word: "Graecus, Graecī",
-        defintion: "m., a Greek"
+        definition: "m., a Greek"
     },
     "perpetuus": {
         word: "perpetuus, perpetua, perpetuum",
-        defintion: "perpetual, lasting, uninterrupted, continuous (perpetuate, perpetuity)"
+        definition: "perpetual, lasting, uninterrupted, continuous (perpetuate, perpetuity)"
     },
     "plēnus": {
         word: "plēna, plēnus, plēnum",
-        defintion: "full, abundant, generous (plenary, plenteous, plentiful, plenty)"
+        definition: "full, abundant, generous (plenary, plenteous, plentiful, plenty)"
     },
     "salvus": {
         word: "salvus, salva, salvum",
-        defintion: "safe, sound"
+        definition: "safe, sound"
     },
     "secundus": {
         word: "secundus, secunda, secundum",
-        defintion: "second, favorable (secondary)"
+        definition: "second, favorable (secondary)"
     },
     "vester": {
         word: "vester, vestra, vestrum",
-        defintion: "your (pl.)"
+        definition: "your (pl.)"
     },
     "-que": {
         word: "-que, ENCLITIC",
-        defintion: "conj., and; appended to the second of two words to be joined (ex: fāma glōriaque)"
+        definition: "conj., and; appended to the second of two words to be joined (ex: fāma glōriaque)"
     },
     "ubi": {
         word: "ubi",
-        defintion: "(1) rel. adv. and conj., where, when (2) interog. adv. and conj., where? (ubiquitous, ubiquity)"
+        definition: "(1) rel. adv. and conj., where, when (2) interog. adv. and conj., where? (ubiquitous, ubiquity)"
     },
     "ibi": {
         word: "ibi",
-        defintion: "adv., there (ib. or ibid)"
+        definition: "adv., there (ib. or ibid)"
     },
     "nunc": {
         word: "nunc",
-        defintion: "adv., now, at present (quidnunc)"
+        definition: "adv., now, at present (quidnunc)"
     },
     "quārē": {
         word: "quārē",
-        defintion: "adv., lit because of which thing, (but more commonly) therefore, wherefore, why"
+        definition: "adv., lit because of which thing, (but more commonly) therefore, wherefore, why"
     },
     "possum": {
         word: "possum, posse, potuī",
-        defintion: "to be able, can could, have power (posse, possible, potent, potentate, potential, omnipotent)"
+        definition: "to be able, can could, have power (posse, possible, potent, potentate, potential, omnipotent)"
     },
     "tolerō": {
         word: "tolerō, tolerāre, tolerāvī, tolerātum",
-        defintion: "to bear, endure (tolerate, toleration, tolerable, intolerable, intolerance)"
+        definition: "to bear, endure (tolerate, toleration, tolerable, intolerable, intolerance)"
     },
 }
 
@@ -666,6 +670,6 @@ let vocabUnit2List = Object.assign({}, ...vocabUnit2)
 let vocabList = Object.assign({}, ...vocabLists)
 
 makeVocabButton(vocabUnit1List, 'Unit 1 Vocab')
-makeVocabButton(vocabUnit2List, 'Unit 1 Vocab')
+makeVocabButton(vocabUnit2List, 'Unit 2 Vocab')
 
 makeVocabButton(vocabList, 'All Vocab')
