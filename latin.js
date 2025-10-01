@@ -505,7 +505,7 @@ let wordsCh6 = {
     },
     "discipulus": {
         word: "discipulus, disciplī, (discipula, discipulae)",
-        definition: "m. (f.), learner, pupil student (disciple, discipline, disciplinary)"
+        definition: "m. (f.), learner, pupil, student (disciple, discipline, disciplinary)"
     },
     "īnsidiae": {
         word: "īnsidiae, īnsidiārum",
@@ -580,10 +580,109 @@ let wordsCh6 = {
         definition: "to bear, endure (tolerate, toleration, tolerable, intolerable, intolerance)"
     },
 }
+let wordsCh7 = {
+    "amor": {
+        word: "amor, amōris",
+        definition: "m., love (amorous, enamoured)"
+    },
+    "carmen": {
+        word: "carmen, carmenis",
+        definition: "n., song, poem (charm)"
+    },
+    "cīvitās": {
+        word: "cīvitās, cīvitātis",
+        definition: "f., state, citizenship (city)"
+    },
+    "corpus": {
+        word: "corpus, corporis",
+        definition: "n., body (corps, corpse, corpuscle, corporate, corset)"
+    },
+    "homō": {
+        word: "homō, hominis",
+        definition: "m., human being, man (homicide, homage, homo sapiens)"
+    },
+    "labor": {
+        word: "labor, labōris",
+        definition: "m., labor, work, toil; a work, production (laboratory, belabor, collaborate)"
+    },
+    "littera": {
+        word: "littera, litterae",
+        definition: "f., a letter of the alphabet (letters, alliteration)"
+    },
+    "litterae": {
+        word: "litterae, litterārum",
+        definition: "f. pl., a letter or epistle, literature (literal, illiterate)"
+    },
+    "mōs": {
+        word: "mōs, mōris",
+        definition: "m., habit, custom, manner (moral, immorality)" 
+    },
+    "mōrēs": {
+        word: "mōrēs, mōrum",
+        definition: "m. pl., habits, morals, character (mores, morale, morose)"
+    },
+    "nōmen": {
+        word: "nōmen, nōminis",
+        definition: "n., name (nomenclature, noun, nominate, misnomer)"
+    },
+    "pāx": {
+        word: "pāx, pācis",
+        definition: "f., peace (pacify, pacific, pacifist, appease, pay)"
+    },
+    "rēgīna": {
+        word: "rēgīna, regīnae",
+        definition: "f., queen (Regina, reginal)"
+    },
+    "rēx": {
+        word: "rēx, rēgis",
+        definition: "m., king (regal, regalia, regicide, royal)"
+    },
+    "tempus": {
+        word: "tempus, temporis",
+        definition: "n., time, occasion, opportunity (tempo, temporary, contemporary, temporal, temporize, extempore, tense)"
+    },
+    "terra": {
+        word: "terra, terrae",
+        definition: "f., earth, ground, land, country (terrestrial, terrace, terrier, territory, subterranean)"
+    },
+    "uxor": {
+        word: "uxor, uxōris",
+        definition: "f., wife (uxorial, uxorious, uxoricide)"
+    },
+    "virgō": {
+        word: "virgō, virginis",
+        definition: "f., maiden, virgin (virgin, virginal, virginity, Virginia)"
+    },
+    "virtūs": {
+        word: "virtūs, virtūtis",
+        definition: "f., manliness, courage; excellence, character, worth, virtue (virtuouso, virtuosity, virtual)"
+    },
+    "novus": {
+        word: "novus, nova, novum",
+        definition: "new, strange (novel, novelty, novice, innovate)"
+    },
+    "post": {
+        word: "post",
+        definition: "prep. + acc., after, behind (posthumous, posterity, postwar)"
+    },
+    "sub": {
+        word: "sub",
+        definition: "prep. + abl. with verbs of rest, prep. + acc. with verbs of motion, under, up under, close to, down to, to/into (suffix, subterranean, suburb, sustain)"
+    },
+    "audeō": {
+        word: "audeō, audēre, ausus sum",
+        definition: "to dare (audacious, audacity)"
+    },
+    "nēco": {
+        word: "nēco, necāre, necāvī, necātum",
+        definition: "to murder, to kill (internecine)"
+    },
+
+}
 
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
-let vocabUnit2 = [wordsCh5, wordsCh6]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6]
+let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7]
 
 function toggleDisplay() {
     if (!showAnswer) {
