@@ -67,3 +67,7 @@ html {
 .vocab-selection-wrapper.invisible {
     display: none;
 }
+
+table {
+    margin: 0 auto;
+}

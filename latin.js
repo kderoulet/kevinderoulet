@@ -677,12 +677,115 @@ let wordsCh7 = {
         word: "nēco, necāre, necāvī, necātum",
         definition: "to murder, to kill (internecine)"
     },
+}
+
+let wordsCh8 = {
+    "Cicerō": {
+        word: "Cicerō, Cicerōnis",
+        definition: "m., (Marcus Tullius) Cicero"
+    },
+    "cōpia": {
+        word: "cōpia, cōpiae",
+        definition: "f., abundance, supply (copious)"
+    },
+    "cōpiae": {
+        word: "cōpiae, cōpiārum",
+        definition: "pl., supplies, troops, forces (copious, copy, cornucopia)"
+    },
+    "frāter": {
+        word: "frāter, frātris",
+        definition: "m., brother (fraternal, fraternity, fraternize)"
+    },
+    "laus": {
+        word: "laus, laudis",
+        definition: "f., praise, glory, fame (laud, laudable, laudation, laudatory, magna cum laude)"
+    },
+    "lībertās": {
+        word: "lībertās, lībertātis",
+        definition: "f., liberty"
+    },
+    "ratiō": {
+        word: "ratiō, ratiōnis",
+        definition: "f., reckoning, account; reason, judgment, consideration; system; manner, method (ratio, ration, rational, irrational, ratiocination)"
+    },
+    "scrīptor": {
+        word: "scrīptor, scrīptōris",
+        definition: "m., writer, author (scriptorium)"
+    },
+    "sorōris": {
+        word: "sorōris",
+        definition: "f., sister (sororal, sorority)"
+    },
+    "victōria": {
+        word: "victōria, victōriae",
+        definition: "f., victory (victorious, Victoria)"
+    },
+    "dum": {
+        word: "dum",
+        definition: "conj., while, as long as, at the same time that; + subjunct., until"
+    },
+    "ad": {
+        word: "ad",
+        definition: "prep. + acc., to, up to, near to"
+    },
+    "ex": {
+        word: "ex, ē",
+        definition: "prep. + abl., out of, from, from within; by reason of, on account of"
+    },
+    "numquam": {
+        word: "numquam",
+        definition: "adv., never"
+    },
+    "tamen": {
+        word: "tamen",
+        definition: "adv., nevertheless, still"
+    },
+    "agō": {
+        word: "agō, agere, ēgī, āctum",
+        definition: "to drive, lead, do, act; pass, spend (life or time); (agent, agenda, active, action)"
+    },
+    "grātiās agere": {
+        word: "grātiās agere",
+        definition: "+ dat., for the person being thanked, to thank (someone); lit to give thanks to"
+    },
+    "dēmōnstrō": {
+        word: "dēmōnstrō, dēmōnstrāre, dēmōnstrāvī, dēmōnstrātum",
+        definition: "to point out, to show, demonstrate (demonstrable, demonstration, demonstrative)"
+    },
+    "discō": {
+        word: "discō, discere, didicī",
+        definition: "to learn (disciple, disciplinary)"
+    },
+    "doceō": {
+        word: "doceō, docēre, docuī, doctum",
+        definition: "to teach (docent, docile, document, doctor, doctrine, indoctrinate)"
+    },
+    "dūcō": {
+        word: "dūcō, dūcere, dūxī, dūctum",
+        definition: "to lead; consider, regard; prolong (ductile, abduct, adduce, produce, reduce)"
+    },
+    "gerō": {
+        word: "gerō, gerere, gessī, gestum",
+        definition: "to carry; carry on, manage, conduct, wage, accomplish, perform (gerund, gesture, jest, belligerent, digest, exaggerate, register)"
+    },
+    "scrībō": {
+        word: "scrībō, scrībere, scrīpsī, scrīptum",
+        definition: "to write, compose (ascribe, conscript, scripture, scriblle, scrivener, shrive)"
+    },
+    "trahō": {
+        word: "trahō, trahere, trāxī, tractum",
+        definition: "to draw, drag; derive, acquire (aatract, contract, tractor)"
+    },
+    "vincō": {
+        word: "vincō, vincere, vīcī, victum",
+        definition: "to conquer, overcome (convince, convict, evince, evict, invincible, Vincent, vanquish)"
+    },
 
 }
 
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
-let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7]
+let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8]
 
 function toggleDisplay() {
     if (!showAnswer) {
