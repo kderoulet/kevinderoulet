@@ -276,7 +276,7 @@ let wordsCh3 = {
     },
     "in": {
         word: "in",
-        definition: "in, on"
+        definition: "prep., + abl. in, on; prep., + acc. into, twoard; against"
     },
     "hodiē": {
         word: "hodiē",
@@ -774,13 +774,95 @@ let wordsCh8 = {
     },
     "trahō": {
         word: "trahō, trahere, trāxī, tractum",
-        definition: "to draw, drag; derive, acquire (aatract, contract, tractor)"
+        definition: "to draw, drag; derive, acquire (attract, contract, tractor)"
     },
     "vincō": {
         word: "vincō, vincere, vīcī, victum",
         definition: "to conquer, overcome (convince, convict, evince, evict, invincible, Vincent, vanquish)"
     },
+}
 
+let wordsCh9 = {
+    "locus": {
+        word: "locus, locī",
+        definition: "m., place; passage in literature"
+    },
+    "luca": {
+        word: "loca, locōrum",
+        definition: "n., places, region"
+    },
+    "morbus": {
+        word: "morbus, morbī",
+        definition: "m., disease, sickness (morbid, morbidity, morbidness, morbose)"
+    },
+    "studium": {
+        word: "studium, studiī",
+        definition: "n., eagerness, zeal, pursuit, study (studio, studious)"
+    },
+    "hic": {
+        word: "hic, haec, hoc",
+        definition: "this; the latter; sometimes he/she/they (ad hoc)"
+    },
+    "ille": {
+        word: "ille, illa, illud",
+        definition: "that; the former; the famous; he, she, it, they"
+    },
+    "iste": {
+        word: "iste, ista, istud",
+        definition: "that of yours, that; such; sometimes used contemptuously"
+    },
+    "alius": {
+        word: "alius, alia, aliud",
+        definition: "other, another (alias, alibi, alien)"
+    },
+    "aliī": {
+        word: "aliī... aliī",
+        definition: "some... others"
+    },
+    "alter": {
+        word: "alter, altera, alterum",
+        definition: "the other (of two), second (alter, alteration, alternate, altercation, altruism, adultery)"
+    },
+    "neuter": {
+        word: "neuter, neutra, neutrum",
+        definition: "not either, neither (neutrality, neutralize, neutron)"
+    },
+    "nūllus": {
+        word: "nūllus, nūlla, nūllum",
+        definition: "not any, no, none (null, nullify, nullification, annul"
+    },
+    "sōlus": {
+        word: "sōlus, sōla, sōlum",
+        definition: "alone, only, the only (sole, solitary, soliloquy, solo, sullen)"
+    },
+    "nōn sōlum": {
+        word: "nōn sōlum... set etiam",
+        definition: "not only... but also"
+    },
+    "tōtus": {
+        word: "tōtus, tōta, tōtum",
+        definition: "whole, entire (total, totality, factotum, in toto)"
+    },
+    "ūllus": {
+        word: "ūllus, ūlla, ūllum",
+        definition: "any"
+    },
+    "ūnus": {
+        word: "ūnus, ūna, ūnum",
+        definition: "one, single, alone (unit, union, onion, unicorn)"
+    },
+    "uter": {
+        word: "uter, utra, utrum",
+        definition: "either, which (of two)"
+    },
+    "enim": {
+        word: "enim",
+        definition: "postpositive conj., for, in fact, truly"
+    },
+    "nimis": {
+        word: "nimis or nimium",
+        definition: "adv., too, too much, excessively; exceedingly, very (nimiety)"
+    },
 }
 
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
