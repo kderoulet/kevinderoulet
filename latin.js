@@ -866,8 +866,8 @@ let wordsCh9 = {
 }
 
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
-let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8]
+let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9]
 
 function toggleDisplay() {
     if (!showAnswer) {
