@@ -864,10 +864,92 @@ let wordsCh9 = {
         definition: "adv., too, too much, excessively; exceedingly, very (nimiety)"
     },
 }
+let wordsCh10 = {
+    "amīcitia": {
+        word: "amīcitia, amīcitiae",
+        definition: "f., frienship (amicable, amity)"
+    },
+    "cupiditās": {
+        word: "cupiditās, cupīditātis",
+        definition: "f., desire, longing, passion; cupidity, avarice (Cupid)"
+    },
+    "hōra": {
+        word: "hōra, hōrae",
+        definition: "f., hour, time (horoscope)"
+    },
+    "nātūra": {
+        word: "nātūra, nātūrae",
+        definition: "f., nature (natural, perternatural, supernatural)"
+    },
+    "senectūs": {
+        word: "senectūs, senectūtis",
+        definition: "f., old age (secescent, senility)"
+    },
+    "timor": {
+        word: "timor, timōris",
+        definition: "m., fear (timorous, timid)"
+    },
+    "vēritās": {
+        word: "vēritās, vēritātis",
+        definition: "f., truth (verify, veritable, verity)"
+    },
+    "via": {
+        word: "via, viae",
+        definition: "f., way, road, street (via, viaduct, deviate, obvious, impervious, previous, trivial, voyage, envoy)"
+    },
+    "voluptās": {
+        word: "voluptās, voluptātis",
+        definition: "f., pleasure (voluptuary, voluptuous, voluptuousity)"
+    },
+    "beātus": {
+        word: "beātus, beāta, beātum",
+        definition: "happy, fortunate, blessed (beatific, beatify, beatitude, Beatrice)"
+    },
+    "quoniam": {
+        word: "quoniam",
+        definition: "conj., since, inasmuch as"
+    },
+    "cum": {
+        word: "cum",
+        definition: "prep. + abl. with"
+    },
+    "audiō": {
+        word: "audiō, audīre, audīvī, audītum",
+        definition: "to hear, listen to (audible, audience, audit, audition, auditory"
+    },
+    "capiō": {
+        word: "capiō, capere, cēpī, captum",
+        definition: "to take, capture, seize, get"
+    },
+    "dīcō": {
+        word: "dīcō, dīcere, dīxī, dīctum",
+        definition: "to say, tell, speak; name, call (dictat, dictum, diction, ditto, contradict)"
+    },
+    "faciō": {
+        word: "faciō, facere, fēcī, factum",
+        definition: "to make, do, accomplish (facile, fact, faction, faculty, fashion, feat)"
+    },
+    "fugiō": {
+        word: "fugiō, fugere, fūgī, fugitūrum",
+        definition: "to flee, hurry away; escape; go into exile; avoid, shun (fugitive, fugue, centrifugal, refuge)"
+    },
+    "veniō": {
+        word: "veniō, venīre, vēnī, ventum",
+        definition: "to come (advent, adventure, avenue, convene, covenant, event, venue)"
+    },
+    "inveniō": {
+        word: "inveniō, invenīre, invēnī, inventum",
+        definition: "to come upon, find (invent, inventor, inventive, inventory)"
+    },
+    "vīvō": {
+        word: "vīvō, vīvere, vīxī, vīctum",
+        definition: "to live (convivial, revive, survive, vivacity, vivid, victual)"
+    },
+}
 
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
-let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9]
+let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10]
 
 function toggleDisplay() {
     if (!showAnswer) {
