@@ -867,7 +867,7 @@ let wordsCh9 = {
 let wordsCh10 = {
     "amīcitia": {
         word: "amīcitia, amīcitiae",
-        definition: "f., frienship (amicable, amity)"
+        definition: "f., friendship (amicable, amity)"
     },
     "cupiditās": {
         word: "cupiditās, cupīditātis",
@@ -947,9 +947,84 @@ let wordsCh10 = {
     },
 }
 
+let wordsCh11 = {
+    "caput": {
+        word: "caput, capitis",
+        definition: "n., head; leader; beginning; life; heading; chapter (capital, capitulate, captain, chief, cattle, cadet, precipice)"
+    },
+    "cōnsul": {
+        word: "cōnsul, cōnsulis",
+        definition: "m., consul (consular, consulate, consulship)"
+    },
+    "nēmō": {
+        word: "nēmō, nūllīus, nėminī, nēminem, nūllō or nūlla",
+        definition: "m. or f., no one, nobody (Nemo)"
+    },
+    "ego": {
+        word: "ego, meī",
+        definition: "I (ego, egoism, egotism, egotistical)"
+    },
+    "tū": {
+        word: "tū, tuī",
+        definition: "you"
+    },
+    "is": {
+        word: "is, ea, id",
+        definition: "this, that; he, she, it"
+    },
+    "īdem": {
+        word: "īdem, eadem, idem",
+        definition: "the same (identical, identity, id.)"
+    },
+    "amīcus": {
+        word: "amīcus, amīca, amīcum",
+        definition: "friendly (amicable, amiable)"
+    },
+    "cārus": {
+        word: "cārus, cāra, cārum",
+        definition: "dear (caress, charity, charitable, cherish)"
+    },
+    "quod": {
+        word: "quod",
+        definition: "because"
+    },
+    "neque": {
+        word: "neque, nec",
+        definition: "conj. and not, nor;"
+    },
+    "neque... neque": {
+        word: "neque... neque",
+        definition: "neither... nor"
+    },
+    "autem": {
+        word: "autem",
+        definition: "postpositive conj., however; moreover"
+    },
+    "bene": {
+        word: "bene",
+        definition: "adv., well, satisfactorily, quite (benediction, benefit, benefit, benefactor, beneficent, benevolent)"
+    },
+    "etiam": {
+        word: "etiam",
+        definition: "adv., even, also"
+    },
+    "intellegō": {
+        word: "intellegō, intellegere, intellēxī, intellēctum",
+        definition: "to understand (intelligent, intellegentsia, intelligible)"
+    },
+    "mittō": {
+        word: "mittō, mittere, mīsī, missum",
+        definition: "to send, let go (admit, commit, emit, omit, permit, promise, compromise)"
+    },
+    "sentiō": {
+        word: "sentiō, sentīre, sēnsī, sēnsum",
+        definition: "to feel, perceive, think, experience (assent, consent, dissent, presentiment, resent, sentimental, scent)"
+    },
+}
+
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
-let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10]
+let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11]
 
 function toggleDisplay() {
     if (!showAnswer) {
