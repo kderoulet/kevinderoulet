@@ -957,7 +957,7 @@ let wordsCh11 = {
         definition: "m., consul (consular, consulate, consulship)"
     },
     "nēmō": {
-        word: "nēmō, nūllīus, nėminī, nēminem, nūllō or nūlla",
+        word: "nēmō, nūllīus, neminī, nēminem, nūllō or nūllā",
         definition: "m. or f., no one, nobody (Nemo)"
     },
     "ego": {
@@ -1022,9 +1022,76 @@ let wordsCh11 = {
     },
 }
 
+let wordsCh12 = {
+    "adulēscēns": {
+        word: "adulēscēns, adulēscentis",
+        definition: "m. and f., young man or woman (adolescent, adolescence, adult)"
+    },
+    "annus": {
+        word: "annus, annī",
+        definition: "m., year (annals, anniversary, annual, perennial, millennium, superannuated)"
+    },
+    "Asia": {
+        word: "Asia, Asiae",
+        definition: "f., Asia, commonly referring to Asia Minor"
+    },
+    "Caesar": {
+        word: "Caesar, Caesaris",
+        definition: "m., Caesar (caesarian, Casariusm, kaiser, czar, tsar)"
+    },
+    "māter": {
+        word: "māter, mātris",
+        definition: "f., mother (maternal, matriarchy, matrimony, matriculate, matrix, matron)"
+    },
+    "medicus": {
+        word: "medicus, medicī",
+        definition: "m. (medica, medicae f.), doctor, physician (medic, medical, medicate, medicine)"
+    },
+    "pater": {
+        word: "pater, patris",
+        definition: "m., father (paternal, paternity, patrician, patrimony, patron, patronage, patronize, patter, padre, pere)"
+    },
+    "patientia": {
+        word: "patientia, patientiae",
+        definition: "f., suffering; patience, endurance (patient, impatient)"
+    },
+    "prīncipium": {
+        word: "prīncipium, prīncipiī",
+        definition: "n., beginning (principal, principle)"
+    },
+    "acerbus": {
+        word: "acerbus, acerba, acerbum",
+        definition: "harsh, bitter, grievous (acerbic, acerbity, exacerbate)"
+    },
+    "prō": {
+        word: "prō",
+        definition: "prep. + abl. in front of, before, on behalf of, for the sake of, in return for, instead of, for, as"
+    },
+    "diū": {
+        word: "diū",
+        definition: "adv., long, for a long time"
+    },
+    "nūper": {
+        word: "nūper",
+        definition: "adv., recently"
+    },
+    "āmittō": {
+        word: "āmittō, āmittere, āmīsī, āmissum",
+        definition: "to send away; lose, let go (amissible)"
+    },
+    "cadō": {
+        word: "cadō, cadere, cecidī, cāsūrum",
+        definition: "to fall (cadence, case, casual, cascade, chance, accident, incident, decadence, decay, deciduous)"
+    },
+    "creō": {
+        word: "creō, creāre, creāvī, creātum",
+        definition: "to create (creation, creativity, creature, procreate)"
+    }
+}
+
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
-let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11]
+let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12]
 
 function toggleDisplay() {
     if (!showAnswer) {
