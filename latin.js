@@ -1089,9 +1089,81 @@ let wordsCh12 = {
     }
 }
 
+let wordsCh13 = {
+    "dīvitae": {
+        word: "dīvitae, dīvitiārum",
+        definition: "f. pl., riches, wealth"
+    },
+    "factum": {
+        word: "factum, factī",
+        definition: "n., deed, act, achievement (fact, factual, faction, feat)"
+    },
+    "signum": {
+        word: "signum, signī",
+        definition: "n., sign, signal, indication; seal (assign, consign, countersign, design, ensign, insignia, resign, seal, signet)"
+    },
+    "ipse": {
+        word: "ipse, ipsa, ipsum",
+        definition: "intensive pron., myself, yourself, himself/herself/itself; the very, the actual (ipso facto, solipsistic)"
+    },
+    "quisque": {
+        word: "quisque, quidque (gen. cuiusque; dat. cuique)",
+        definition: "indefinite pronoun., each one, each person, each thing"
+    },
+    "suī": {
+        word: "suī",
+        definition: "reflecive 3rd person pron., himself, herself, itself, themselves (suicide, per se)"
+    },
+    "doctus": {
+        word: "doctus, docta, doctum",
+        definition: "taught, learned, skilled (doctor, doctorate, doctrine, indoctrinate)"
+    },
+    "fortūnātus": {
+        word: "fortūnātus, fortūnāta",
+        definition: "luck, fortunate, happy"
+    },
+    "suus": {
+        word: "suus, sua, suum",
+        definition: "reflexive 3rd person possessive adj., his own, her own, its own, their own (sui generis)"
+    },
+    "nam": {
+        word: "nam",
+        definition: "conj., for"
+    },
+    "ante": {
+        word: "ante",
+        definition: "prep. + acc., before, in front of; adv., before, previously (advance, advantage, ante meridiem)"
+    },
+    "per": {
+        word: "per",
+        definition: "prep + acc., through; + reflexive pron., by (perchance, perforce, perhaps, preceive, perfect)"
+    },
+    "ōlim": {
+        word: "ōlim",
+        definition: "adv., once, long ago, formerly; some day, in the future"
+    },
+    "alō": {
+        word: "alō, alere, aluī, altum",
+        definition: "to nourish, support, sustain, increase; cherish (ailment, alimentary, alimony, coalesce)"
+    },
+    "dīligō": {
+        word: "dīligō, dīligere, dīlēxī, dīlēctum",
+        definition: "to esteem, love (diligent, diligence)"
+    },
+    "iungō": {
+        word: "iungō, iungere, iūnxī, iūnctum",
+        definition: "to join (join, joint, junction, adjunct, conjunction, enjoin, subjunctive)"
+    },
+    "stō": {
+        word: "stō, stāre, stetī, statum",
+        definition: "to stand, stant still or firm (stable, state, station, statue, stature, statute, establish, instant, stay)"
+    },
+}
+
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
 let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12]
+let vocabUnit3 = [wordsCh13]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12, wordsCh13]
 
 function toggleDisplay() {
     if (!showAnswer) {
@@ -1174,10 +1246,13 @@ vocabLists.forEach((list, i) => {
 })
 let vocabUnit1List = Object.assign({}, ...vocabUnit1)
 let vocabUnit2List = Object.assign({}, ...vocabUnit2)
+let vocabUnit3List = Object.assign({}, ...vocabUnit3)
+
 
 let vocabList = Object.assign({}, ...vocabLists)
 
 makeVocabButton(vocabUnit1List, 'Unit 1 Vocab')
 makeVocabButton(vocabUnit2List, 'Unit 2 Vocab')
+makeVocabButton(vocabUnit3List, 'Unit 3 Vocab')
 
 makeVocabButton(vocabList, 'All Vocab')
