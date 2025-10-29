@@ -1160,10 +1160,105 @@ let wordsCh13 = {
     },
 }
 
+let wordsCh14 = {
+    "animal": {
+        word: "animal, animālis",
+        definition: "n., a living creature, animal (animate, animation)"
+    },
+    "aqua": {
+        word: "aqua, aquae",
+        definition: "f., water (aquatic, Aquarius, aqueduct, sewer)"
+    },
+    "ars": {
+        word: "ars, artis",
+        definition: "f., art, skill (artifact, artifice, artificial, artisan, artist, inert)"
+    },
+    "auris": {
+        word: "auris, auris",
+        definition: "f., ear (aural, auricle, auricular)"
+    },
+    "cīvis": {
+        word: "cīvis, cīvis",
+        definition: "m. and f., citizen (civic, civil, civilian)"
+    },
+    "iūs": {
+        word: "iūs, iūris",
+        definition: "n., right, justice, law (jurisdiciton, jurist, juror, just, justice)"
+    },
+    "mare": {
+        word: "mare, maris",
+        definition: "n., sea (marine, mariner, marinate, maritime, submarine, rosemary)"
+    },
+    "mors": {
+        word: "mors, mortis",
+        definition: "f., death (mortal, immortal, mortify, mortgage)"
+    },
+    "nūbēs": {
+        word: "nūbēs, nūbis",
+        definition: "f., cloud (nubilous, nubilose, nuance)"
+    },
+    "ōs": {
+        word: "ōs, ōris",
+        definition: "n., mouth, face (oral, orifice, orator)"
+    },
+    "pars": {
+        word: "pars, partis",
+        definition: "f., part, share, direction (party, partial, partake, particle, partisan, apart)"
+    },
+    "Rōma": {
+        word: "Rōma, Rōmae",
+        definition: "f., Rome (romance, romantic, romanticism)"
+    },
+    "turba": {
+        word: "turba, turbae",
+        definition: "f., uproar, disturbance; mob, crowd, multitude (turbid, turbulent, turbine, turbo, disturb, trouble)"
+    },
+    "urbs": {
+        word: "urbs, urbis",
+        definition: "f., city (urban, urbane, suburb, suburban)"
+    },
+    "vīs": {
+        word: "vīs, vīs",
+        definition: "f., force, power, violence (vim, violate, violent)"
+    },
+    "vīrēs": {
+        word: "vīrēs, vīrium",
+        definition: "f. pl., strength"
+    },
+    "ā": {
+        word: "ā, ab",
+        definition: "prep. + abl., away from, from; by"
+    },
+    "trāns": {
+        word: "trāns",
+        definition: "prep. + acc., across (transport, transmit, transfer)"
+    },
+    "appellō": {
+        word: "appellō, appellāre, appellāvī, appellātum",
+        definition: "to speak to, address, call, name (appellation, appellative, appeal, appellant)"
+    },
+    "currō": {
+        word: "currō, currere, cucurrī, cursum",
+        definition: "to run, rush, move quickly (current, cursive, cursory, course, coarse, discursive, incur, occur, recur)"
+    },
+    "mūtō": {
+        word: "mūtō, mūtāre, mūtāvī, mūtātum",
+        definition: "to change, alter; exchange (mutable, immutable, mutual, commute, permutation, transmutation, molt)"
+    },
+    "teneō": {
+        word: "teneō, tenēre, tenuī, tentum",
+        definition: "to hold, keep, possess; restrain (tenable, tenacious, tenant, tenet, tentacle, continue, pertinent, lieutenant, sustain)"
+    },
+    "vītō": {
+        word: "vītō, vītāre, vītārī, vītātum",
+        definition: "to avoid, shun (inevitable)"
+    },
+}
+
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
 let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12]
-let vocabUnit3 = [wordsCh13]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12, wordsCh13]
+let vocabUnit3 = [wordsCh13, wordsCh14]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12, wordsCh13, wordsCh14]
 
 function toggleDisplay() {
     if (!showAnswer) {
