@@ -1112,7 +1112,7 @@ let wordsCh13 = {
     },
     "suī": {
         word: "suī",
-        definition: "reflecive 3rd person pron., himself, herself, itself, themselves (suicide, per se)"
+        definition: "reflexive 3rd person pron., himself, herself, itself, themselves (suicide, per se)"
     },
     "doctus": {
         word: "doctus, docta, doctum",
@@ -1120,7 +1120,7 @@ let wordsCh13 = {
     },
     "fortūnātus": {
         word: "fortūnātus, fortūnāta",
-        definition: "luck, fortunate, happy"
+        definition: "lucky, fortunate, happy"
     },
     "suus": {
         word: "suus, sua, suum",
@@ -1156,7 +1156,7 @@ let wordsCh13 = {
     },
     "stō": {
         word: "stō, stāre, stetī, statum",
-        definition: "to stand, stant still or firm (stable, state, station, statue, stature, statute, establish, instant, stay)"
+        definition: "to stand, stand still or firm (stable, state, station, statue, stature, statute, establish, instant, stay)"
     },
 }
 
