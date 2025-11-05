@@ -1255,10 +1255,379 @@ let wordsCh14 = {
     },
 }
 
+wordsCh15 = {
+    "Italia": {
+        word: "Italia, Italiae",
+        definition: "f., Italy (italics, italicize)"
+    },
+    "memoria": {
+        word: "memoria, memoriae",
+        definition: "f., memory, recollection (memoir, memorial, memorize, memorandum, commemorate)"
+    },
+    "tempestās": {
+        word: "tempestās, tempestātis",
+        definition: "f. period of time, season; weather, storm"
+    },
+    "miser": {
+        word: "miser, misera, miserum",
+        definition: "wretched, miserable, unfortunate (misery, commiserate)"
+    },
+    "inter": {
+        word: "inter",
+        definition: "prep. + acc., between, among (intern, internal, interact)"
+    },
+    "itaque": {
+        word: "itaque",
+        definition: "adv., and so, therefore"
+    },
+    "committō": {
+        word: "committō, committere, commīsī, commissum",
+        definition: "to entrust, commit (committee, commission, commissary, commitment)"
+    },
+    "exspectō": {
+        word: "exspectō, exspectāre, exspectāvī, exspectātum",
+        definition: "to look for, expect, await (expectant, expectation)"
+    },
+    "iaciō": {
+        word: "iaciō, iacere, iėcī, iactum",
+        definition: "to throw, hurl (abject, adjective, conjecture, dejected, eject, inject, reject, subject, trajectory)"
+    },
+    "timeō": {
+        word: "timeō, timēre, timuī",
+        definition: "f. pl., strength"
+    },
+}
+
+let cardinalNumbers = {
+    "ūnus": {
+        word: "ūnus, ūna, ūnum",
+        definition: "one"
+    },
+    "duo": {
+        word: "duo, duae, duo",
+        definition: "two"
+    },
+    "trēs": {
+        word: "trēs, tria",
+        definition: "three"
+    },
+    "quattuor": {
+        word: "quattuor",
+        definition: "four"
+    },
+    "quīnque": {
+        word: "quīnque",
+        definition: "five"
+    },
+    "sex": {
+        word: "sex",
+        definition: "six"
+    },
+    "septem": {
+        word: "septem",
+        definition: "seven"
+    },
+    "octō": {
+        word: "octō",
+        definition: "eight"
+    },
+    "novem": {
+        word: "novem",
+        definition: "nine"
+    },
+    "decem": {
+        word: "decem",
+        definition: "ten"
+    },
+    "ūndecim": {
+        word: "ūndecim",
+        definition: "eleven"
+    },
+    "duodecim": {
+        word: "duodecim",
+        definition: "twelve"
+    },
+    "tredecim": {
+        word: "tredecim",
+        definition: "thirteen"
+    },
+    "quattuordecim": {
+        word: "quattuordecim",
+        definition: "fourteen"
+    },
+    "quīndecim": {
+        word: "quīndecim",
+        definition: "fifteen"
+    },
+    "sēdecim": {
+        word: "sēdecim",
+        definition: "sixteen"
+    },
+    "septendecim": {
+        word: "septendecim",
+        definition: "seventeen"
+    },
+    "duodēvigintī": {
+        word: "duodēvigintī",
+        definition: "eighteen"
+    },
+    "ūndēvīgintī": {
+        word: "ūndēvīgintī",
+        definition: "nineteen"
+    },
+    "vīgintī": {
+        word: "vīgintī",
+        definition: "twenty"
+    },
+    "vīgintī ūnus": {
+        word: "vīgintī ūnus, ūnus et vīgintī",
+        definition: "twenty-one"
+    },
+    "trīgintā": {
+        word: "trīgintā",
+        definition: "thirty"
+    },
+    "quadrāgintā": {
+        word: "quadrāgintā",
+        definition: "forty"
+    },
+    "quīnquāgintā": {
+        word: "quīnquāgintā",
+        definition: "fifty"
+    },
+    "sexāgintā": {
+        word: "sexāgintā",
+        definition: "sixty"
+    },
+    "septuāgintā": {
+        word: "septuāgintā",
+        definition: "seventy"
+    },
+    "octōgintā": {
+        word: "octōgintā",
+        definition: "eighty"
+    },
+    "nōnāgintā": {
+        word: "nōnāgintā",
+        definition: "ninety"
+    },
+    "centum": {
+        word: "centum",
+        definition: "one hundred"
+    },
+    "centum ūnus": {
+        word: "centum ūnus",
+        definition: "one hundred one"
+    },
+    "ducentī": {
+        word: "ducentī",
+        definition: "two hundred"
+    },
+    "trecentī": {
+        word: "trecentī",
+        definition: "three hundred"
+    },
+    "quadringcentī": {
+        word: "quadringcentī",
+        definition: "four hundred"
+    },
+    "quīngentī": {
+        word: "quīngentī",
+        definition: "five hundred"
+    },
+    "sescentī": {
+        word: "sescentī",
+        definition: "six hundred"
+    },
+    "septingentī": {
+        word: "septingentī",
+        definition: "seven hundred"
+    },
+    "octingentī": {
+        word: "octingentī",
+        definition: "eight hundred"
+    },
+    "nōngentī": {
+        word: "nōngentī",
+        definition: "nine hundred"
+    },
+    "mīlle": {
+        word: "mīlle",
+        definition: "one thousand"
+    },
+    "duo mīlia": {
+        word: "duo mīlia",
+        definition: "two thousand"
+    },
+}
+
+let ordinalNumbers = {
+    "prīmus": {
+        word: "prīmus, prīma, prīmum",
+        definition: "first"
+    },
+    "secundus": {
+        word: "secundus, alter",
+        definition: "second"
+    },
+    "terius": {
+        word: "terius",
+        definition: "third"
+    },
+    "quärtus": {
+        word: "quärtus",
+        definition: "fourth"
+    },
+    "quīntus": {
+        word: "quīntus",
+        definition: "fifth"
+    },
+    "sextus": {
+        word: "sextus",
+        definition: "sixth"
+    },
+    "septimus": {
+        word: "septimus",
+        definition: "seventh"
+    },
+    "octāvus": {
+        word: "octāvus",
+        definition: "eighth"
+    },
+    "nōnus": {
+        word: "nōnus",
+        definition: "nineth"
+    },
+    "decimus": {
+        word: "decimus",
+        definition: "tenth"
+    },
+    "ūndecimus": {
+        word: "ūndecimus",
+        definition: "eleventh"
+    },
+    "duodecimus": {
+        word: "duodecimus",
+        definition: "twelfth"
+    },
+    "tretius decimus": {
+        word: "tretius decimus",
+        definition: "thirteenth"
+    },
+    "quärtus decimus": {
+        word: "quärtus decimus",
+        definition: "fourteenth"
+    },
+    "quīntus decimus": {
+        word: "quīntus decimus",
+        definition: "fifteen"
+    },
+    "sextus decimus": {
+        word: "sextus decimus",
+        definition: "sixteenth"
+    },
+    "septimus decimus": {
+        word: "septimus decimus",
+        definition: "seventeenth"
+    },
+    "duodēvīcēsimus": {
+        word: "duodēvīcēsimus",
+        definition: "eighteenth"
+    },
+    "ūndēvīcēsimus": {
+        word: "ūndēvīcēsimus",
+        definition: "nineteenth"
+    },
+    "vīcēsimus": {
+        word: "vīcēsimus",
+        definition: "twentieth"
+    },
+    "vīcēsimus prīmus": {
+        word: "vīcēsimus prīmus",
+        definition: "twenty-first"
+    },
+    "trīcēsimus": {
+        word: "trīcēsimus",
+        definition: "thirtieth"
+    },
+    "quadrāgēsimus": {
+        word: "quadrāgēsimus",
+        definition: "fortieth"
+    },
+    "quīnquāgēsimus": {
+        word: "quīnquāgēsimus",
+        definition: "fiftieth"
+    },
+    "sexāgēsimus": {
+        word: "sexāgēsimus",
+        definition: "sixtieth"
+    },
+    "septuāgēsimus": {
+        word: "septuāgēsimus",
+        definition: "seventieth"
+    },
+    "octōgēsimus": {
+        word: "octōgēsimus",
+        definition: "eightieth"
+    },
+    "nōnāgēsimus": {
+        word: "nōnāgēsimus",
+        definition: "ninetieth"
+    },
+    "centēsimus": {
+        word: "centēsimus",
+        definition: "one hundredth"
+    },
+    "centēsimus prīmus": {
+        word: "centēsimus prīmus",
+        definition: "one hundred first"
+    },
+    "duocentēsimus": {
+        word: "duocentēsimus",
+        definition: "two hundredth"
+    },
+    "trecentēsimus": {
+        word: "trecentēsimus",
+        definition: "three hundredth"
+    },
+    "quadringentēsimus": {
+        word: "quadringentēsimus",
+        definition: "four hundredth"
+    },
+    "quīngentēsimus": {
+        word: "quīngentēsimus",
+        definition: "five hundredth"
+    },
+    "sescentēsimus": {
+        word: "sescentēsimus",
+        definition: "six hundredth"
+    },
+    "septingentēsimus": {
+        word: "septingentēsimus",
+        definition: "seven hundredth"
+    },
+    "octingentēsimus": {
+        word: "octingentēsimus",
+        definition: "eight hundredth"
+    },
+    "nōngentēsimus": {
+        word: "nōngentēsimus",
+        definition: "nine hundredth"
+    },
+    "mīllēsimus": {
+        word: "mīllēsimus",
+        definition: "one thousandth"
+    },
+    "bis mīllēsimus": {
+        word: "bis mīllēsimus",
+        definition: "two thousandth"
+    },
+}
+
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
 let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12]
-let vocabUnit3 = [wordsCh13, wordsCh14]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12, wordsCh13, wordsCh14]
+let vocabUnit3 = [wordsCh13, wordsCh14, wordsCh15]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12, wordsCh13, wordsCh14, wordsCh15]
 
 function toggleDisplay() {
     if (!showAnswer) {
@@ -1349,5 +1718,7 @@ let vocabList = Object.assign({}, ...vocabLists)
 makeVocabButton(vocabUnit1List, 'Unit 1 Vocab')
 makeVocabButton(vocabUnit2List, 'Unit 2 Vocab')
 makeVocabButton(vocabUnit3List, 'Unit 3 Vocab')
+makeVocabButton(cardinalNumbers, 'Cardinal Numbers')
+makeVocabButton(ordinalNumbers, 'Ordinal Numbers')
 
 makeVocabButton(vocabList, 'All Vocab')
