@@ -1294,7 +1294,7 @@ wordsCh15 = {
     },
     "timeō": {
         word: "timeō, timēre, timuī",
-        definition: "f. pl., strength"
+        definition: "to fear, be afraid (timid, timoris, intimidate)"
     },
 }
 
