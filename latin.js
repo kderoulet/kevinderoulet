@@ -1289,12 +1289,95 @@ wordsCh15 = {
         definition: "to look for, expect, await (expectant, expectation)"
     },
     "iaciō": {
-        word: "iaciō, iacere, iėcī, iactum",
+        word: "iaciō, iacere, iēcī, iactum",
         definition: "to throw, hurl (abject, adjective, conjecture, dejected, eject, inject, reject, subject, trajectory)"
     },
     "timeō": {
         word: "timeō, timēre, timuī",
         definition: "to fear, be afraid (timid, timoris, intimidate)"
+    },
+}
+
+wordsCh16 = {
+    "aetās": {
+        word: "aetās, aetātis",
+        definition: "f., period of life, life, age, an age, time (eternal, eternity, sempiternal)"
+    },
+    "audītor": {
+        word: "audītor, audītōris",
+        definition: "m., hearer, listener, member of an audience (auditor, auditory, auditorium)"
+    },
+    "clēmentia": {
+        word: "clēmentia, clēmentiae",
+        definition: "f., mildness, gentleness, mercy (clement, clemency, inclement, Clementine)"
+    },
+    "mēns": {
+        word: "mēns, mentis",
+        definition: "f., mind, thought, intention (mental, mentality, mention, demented)"
+    },
+    "satura": {
+        word: "satura, saturae",
+        definition: "f., satire (satirist, satirical, satirize)"
+    },
+    "ācer": {
+        word: "ācer, ācris, ācre",
+        definition: "sharp, keen, eager; severe, fiece (acrid, acrimony, acrimonious, eager, vinegar)"
+    },
+    "brevis": {
+        word: "brevis, breve",
+        definition: "short, small, brief (brevity, breviary, abbreviate, abridge)"
+    },
+    "celer": {
+        word: "celer, celeris, celere",
+        definition: "swift, quick, rapid (celerity, accelerate, acceleration, decelerate)"
+    },
+    "difficilis": {
+        word: "difficilis, difficile",
+        definition: "hard, difficult, troublesome (difficulty)"
+    },
+    "dulcis": {
+        word: "dulcis, dulce",
+        definition: "sweet; pleasant, agreeable (dulcify, dulcet, dulcimer)"
+    },
+    "facilis": {
+        word: "facilis, facile",
+        definition: "easy, agreeable (facile, facility, facilitate)"
+    },
+    "foris": {
+        word: "foris, forte",
+        definition: "strong, brave (fort, forte, fortify, fortitude, force, comfort)"
+    },
+    "ingēns": {
+        word: "ingēns, gen. ingentis",
+        definition: "huge"
+    },
+    "iūcundus": {
+        word: "iūcundus, iūcunda, iūcundum",
+        definition: "pleasant, delightful, agreeable, pleasing (jocund)"
+    },
+    "longus": {
+        word: "longus, longa, longum",
+        definition: "long (longitude, longevity, elongate, oblong, prolong)"
+    },
+    "omnis": {
+        word: "omnis, omne",
+        definition: "every, all (omnibus, omnipresent, omnipotent, omniscient, omnivorous)"
+    },
+    "potēns": {
+        word: "potēns, gen. potentis",
+        definition: "pres. partic. of possum as an adj., able, powerful, mighty, strong (potent, impotent, omnipotent, potential)"
+    },
+    "senex": {
+        word: "senex, gen. senis",
+        definition: "adj. and noun, old, aged; old man (senate, senator, senescent, senile, senior, seniority, sir, sire)"
+    },
+    "quam": {
+        word: "quam",
+        definition: "adv., how"
+    },
+    "regō": {
+        word: "regō, regere, rēxī, rēctum",
+        definition: "to rule, guide, direct (regent, regime, regiment, regular, regulate, correct, direction, rectitude)"
     },
 }
 
@@ -1427,8 +1510,8 @@ let cardinalNumbers = {
         word: "trecentī",
         definition: "three hundred"
     },
-    "quadringcentī": {
-        word: "quadringcentī",
+    "quadringentī": {
+        word: "quadringentī",
         definition: "four hundred"
     },
     "quīngentī": {
@@ -1474,8 +1557,8 @@ let ordinalNumbers = {
         word: "terius",
         definition: "third"
     },
-    "quärtus": {
-        word: "quärtus",
+    "quārtus": {
+        word: "quārtus",
         definition: "fourth"
     },
     "quīntus": {
@@ -1514,8 +1597,8 @@ let ordinalNumbers = {
         word: "tretius decimus",
         definition: "thirteenth"
     },
-    "quärtus decimus": {
-        word: "quärtus decimus",
+    "quārtus decimus": {
+        word: "quārtus decimus",
         definition: "fourteenth"
     },
     "quīntus decimus": {
@@ -1626,8 +1709,8 @@ let ordinalNumbers = {
 
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
 let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12]
-let vocabUnit3 = [wordsCh13, wordsCh14, wordsCh15]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12, wordsCh13, wordsCh14, wordsCh15]
+let vocabUnit3 = [wordsCh13, wordsCh14, wordsCh15, wordsCh16]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12, wordsCh13, wordsCh14, wordsCh15, wordsCh16]
 
 function toggleDisplay() {
     if (!showAnswer) {
