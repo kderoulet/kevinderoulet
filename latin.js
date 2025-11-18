@@ -1381,6 +1381,230 @@ wordsCh16 = {
     },
 }
 
+wordsCh17 = {
+    "libellus": {
+        word: "libellus, libellī",
+        definition: "m., little book (libel, libelous)"
+    },
+    "quī": {
+        word: "quī, quae, quod",
+        definition: "rel. pron., who, which, what, that (qui vive, quorum)"
+    },
+    "caecus": {
+        word: "caecus, caeca, caecum",
+        definition: "blind (caecum, caecal, caecilian)"
+    },
+    "levis": {
+        word: "levis, leve",
+        definition: "light; easy; slight, trivial (levity, lever, levy, levee, Levant, leaven, legerdemain), alleviate, elecate, relevant, relieve)"
+    },
+    "aut": {
+        word: "aut",
+        definition: "conj., or"
+    },
+    "aut... aut": {
+        word: "aut... aut",
+        definition: "either... or"
+    },
+    "cito": {
+        word: "cito",
+        definition: "adv., quickly (excite, incite, recite)"
+    },
+    "quoque": {
+        word: "quoque",
+        definition: "adv., also, too"
+    },
+    "admittō": {
+        word: "admittō, admittere, admīsī, admissum",
+        definition: "to admit, receive, let in (admission, admissible, admittedly)"
+    },
+    "coepī": {
+        word: "coepī, coepisse, coeptum",
+        definition: "began; defective verb used only in the perfect system"
+    },
+    "cupiō": {
+        word: "cupiō, cupere, cupįvī, cupītum",
+        definition: "to desire, wish, long for (Cupid, cupidity, concupiscence, covet, covetous, Kewpie doll)"
+    },
+    "dēleo": {
+        word: "dēleō, dēlēre, dēlēvī, dēlēctum",
+        definition: "to destroy, wipe out, erase (delete, indelible)"
+    },
+    "dēsīderō": {
+        word: "dēsīderō, dēsīderāre, dēsīderāvī, dēsīderātum",
+        definition: "to desire, long for, miss (desiderate, desideratum, desiderative, desire, desirous)"
+    },
+    "incipiō": {
+        word: "incipiō, incipere, incēpī, inceptum",
+        definition: "to begin (incipient, inception)"
+    },
+    "nāvigō": {
+        word: "nāvigō, nāvigāre, nāvigāvī, nāvigātum",
+        definition: "to sail, navigate (navigation, navigable)"
+    },
+    "recitō": {
+        word: "recitō, recitāre, recitāvī, recitātum",
+        definition: "to read aloud, recite (recital, recitation, recitative)"
+    },
+}
+
+wordsCh18 = {
+    "flūmen": {
+        word: "flūmen, flūminis",
+        definition: "n., rive (flume, fluminous)"
+    },
+    "genus": {
+        word: "genus, generis",
+        definition: "n., origin; kind, type, sort, class (genus, generic, genitive, gender, general, generous, genuine, degenerate, genre, congenial)"
+    },
+    "hostis": {
+        word: "hostis, hostis",
+        definition: "m., an enemy (of the state); (hostile, hostility, host)"
+    },
+    "hostēs": {
+        word: "hostēs, -ium",
+        definition: "the enemy"
+    },
+    "lūdus": {
+        word: "lūdus, lūdī",
+        definition: "m., game, sport; school (ludicrous, delude, elude, elusive, allude, allusion, illusion, collusion, interlude, prelude, postlude)"
+    },
+    "probitās": {
+        word: "probitās, probitātis",
+        definition: "f., uprightness, honesty (probity, probation)"
+    },
+    "scientia": {
+        word: "scientia, scientiae",
+        definition: "f., knowledge (science, scientific, scientist)"
+    },
+    "clārus": {
+        word: "clārus, clāra, clārum",
+        definition: "clear, bright; renowned, famous, illustrious (clarify, clarity, claret, clarinet, clarion, declare, Clara, Clarissa, Claribel)"
+    },
+    "mortālis": {
+        word: "mortālis, mortāle",
+        definition: "mortal (mortality, immortal, immortality)"
+    },
+    "cūr": {
+        word: "cūr",
+        definition: "adv., why"
+    },
+    "deinde": {
+        word: "deinde",
+        definition: "adv., thereupon, next, then"
+    },
+    "fluō": {
+        word: "fluō, fluere, flūxī, flūxum",
+        definition: "to flow (fluid, fluent, flux, influx, affluence, influence, confluence, influenza, flu, mellifluous, superfluous)"
+    },
+    "legō": {
+        word: "legō, legere, lēgī, lēctum",
+        definition: "to pick out, choose; read (elect, elegant, eligible, lecture, legend, legible, intellect)"
+    },
+    "misceō": {
+        word: "misceō, miscēre, miscuī, mixtum",
+        definition: "to mix, stri up, disturb (miscellaneous, miscible, meddle, medley, melee, promiscuous)"
+    },
+    "moveō": {
+        word: "moveō, movēre, mōvī, mōtum",
+        definition: "to move; arouse, affect (mobile, motion, motive, motor, commotion, emotion, remote, locomotive, mutiny)"
+    },
+    "videor": {
+        word: "videor, vidērī, vīsus sum",
+        definition: "pass. of videō, to be seen, seem, appear"
+    },
+}
+
+wordsCh19 = {
+    "argūmentum": {
+        word: "argūmentum, argūmentī",
+        definition: "n., proof, evidence, argument (argumentation, argumentative)"
+    },
+    "auctor": {
+        word: "auctor, auctōris",
+        definition: "m., increaser; author, originator (authority, authorize)"
+    },
+    "beneficium": {
+        word: "beneficium, beneficiī",
+        definition: "n., benefit, kindness; favor (beneficence, beneficial, beneficiary)"
+    },
+    "familia": {
+        word: "familia, familiae",
+        definition: "f., household, family (familial, familiar, familiarity)"
+    },
+    "Graecia": {
+        word: "Graecia, Graeciae",
+        definition: "f., Greece"
+    },
+    "iūdex": {
+        word: "iūdex, iūdicis",
+        definition: "m., judge, juror (judge, judgment)"
+    },
+    "iūdicium": {
+        word: "iūdicium, iūdiciī",
+        definition: "n., judgment, decision, opinion; trial (adjudge, adjudicate, judicial, judicious, injudicious, misjudge, prejudge, prejudice)"
+    },
+    "scelus": {
+        word: "scelus, sceleris",
+        definition: "n., evil deed, crime, sin, wickedness"
+    },
+    "quis": {
+        word: "quis, quid",
+        definition: "interrog. pron. who? whose? whom? what? which?"
+    },
+    "quī": {
+        word: "quī, quae, quod",
+        definition: "interrog. adj., what? which? what kind of?; sometimes with exclamatory force (quo jure)"
+    },
+    "certus": {
+        word: "certus, certa, certum",
+        definition: "definite, sure, certain, reliable (ascertain, certify, certificate)"
+    },
+    "gravis": {
+        word: "gravis, grave",
+        definition: "heavy, weighty; serous, important; severe, grievous (aggravate, grief, grievance, greive, grave, gravity)"
+    },
+    "immortālis": {
+        word: "immortālis, immortāle",
+        definition: "not subject to death, immortal"
+    },
+    "at": {
+        word: "at",
+        definition: "conj., but; but, mind you; but, you say; typically a stronger adversative than sed nisi"
+    },
+    "sed nisi": {
+        word: "sed nisi",
+        definition: "conj., if... not, unless; except (nisi prius)"
+    },
+    "contrā": {
+        word: "contrā",
+        definition: "prep. + acc., against (contradict, contrast, contravene, contrapuntal)"
+    },
+    "iam": {
+        word: "iam",
+        definition: "adv., now, already, soon"
+    },
+    "dēlectō": {
+        word: "dēlectō, dēlectāre, dēlectāvī, dēlectātum",
+        definition: "to delight, charm, please (delectable, delectation)"
+    },
+    "līberō": {
+        word: "līberō, līberāre, līberāvī, līberātum",
+        definition: "to free, liberate (liberate, liberation, liberal, deliver)"
+    },
+    "parō": {
+        word: "parō, parāre, parāvī, parātum",
+        definition: "to prepare, provide; get, obtain (apparatus, compare, parachute, parapet, parasol, pare, parry, repair, reparation, separate, several)"
+    },
+}
+
+wordsCh20 = {
+    "libellus": {
+        word: "libellus, libellī",
+        definition: "m., little book (libel, libelous)"
+    },
+}
+
 let cardinalNumbers = {
     "ūnus": {
         word: "ūnus, ūna, ūnum",
@@ -1709,8 +1933,8 @@ let ordinalNumbers = {
 
 let vocabUnit1 = [wordsCh1, wordsCh2, wordsCh3, wordsCh4]
 let vocabUnit2 = [wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12]
-let vocabUnit3 = [wordsCh13, wordsCh14, wordsCh15, wordsCh16]
-let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12, wordsCh13, wordsCh14, wordsCh15, wordsCh16]
+let vocabUnit3 = [wordsCh13, wordsCh14, wordsCh15, wordsCh16, wordsCh17, wordsCh18, wordsCh19, wordsCh20]
+let vocabLists = [wordsCh1, wordsCh2, wordsCh3, wordsCh4, wordsCh5, wordsCh6, wordsCh7, wordsCh8, wordsCh9, wordsCh10, wordsCh11, wordsCh12, wordsCh13, wordsCh14, wordsCh15, wordsCh16, wordsCh17, wordsCh18, wordsCh19, wordsCh20]
 
 function toggleDisplay() {
     if (!showAnswer) {
