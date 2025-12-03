@@ -1423,7 +1423,7 @@ wordsCh17 = {
         definition: "began; defective verb used only in the perfect system"
     },
     "cupiō": {
-        word: "cupiō, cupere, cupįvī, cupītum",
+        word: "cupiō, cupere, cupivī, cupītum",
         definition: "to desire, wish, long for (Cupid, cupidity, concupiscence, covet, covetous, Kewpie doll)"
     },
     "dēleo": {
@@ -1442,6 +1442,10 @@ wordsCh17 = {
         word: "nāvigō, nāvigāre, nāvigāvī, nāvigātum",
         definition: "to sail, navigate (navigation, navigable)"
     },
+    "néglegō": {
+        word: "néglegō, neglégere, neglēxī, neglēctum",
+        definition: "to neglect, disregard (negligent, negligee, negligible)"
+    },
     "recitō": {
         word: "recitō, recitāre, recitāvī, recitātum",
         definition: "to read aloud, recite (recital, recitation, recitative)"
@@ -1451,7 +1455,7 @@ wordsCh17 = {
 wordsCh18 = {
     "flūmen": {
         word: "flūmen, flūminis",
-        definition: "n., rive (flume, fluminous)"
+        definition: "n., river (flume, fluminous)"
     },
     "genus": {
         word: "genus, generis",
@@ -1503,7 +1507,7 @@ wordsCh18 = {
     },
     "misceō": {
         word: "misceō, miscēre, miscuī, mixtum",
-        definition: "to mix, stri up, disturb (miscellaneous, miscible, meddle, medley, melee, promiscuous)"
+        definition: "to mix, stir up, disturb (miscellaneous, miscible, meddle, medley, melee, promiscuous)"
     },
     "moveō": {
         word: "moveō, movēre, mōvī, mōtum",
@@ -1562,7 +1566,7 @@ wordsCh19 = {
     },
     "gravis": {
         word: "gravis, grave",
-        definition: "heavy, weighty; serous, important; severe, grievous (aggravate, grief, grievance, greive, grave, gravity)"
+        definition: "heavy, weighty; serious, important; severe, grievous (aggravate, grief, grievance, greive, grave, gravity)"
     },
     "immortālis": {
         word: "immortālis, immortāle",
